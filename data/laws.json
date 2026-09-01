@@ -1355,6 +1355,1680 @@
       ],
       "lawZh": "1967年所得税法 – 非居民固定税率",
       "lawEs": "Ley del Impuesto sobre la Renta de 1967 – Tasa Fija para No Residentes"
+    },
+    {
+      "id": "sg02",
+      "country": "Singapore",
+      "countryCode": "SG",
+      "region": "southeast-asia",
+      "flag": "🇸🇬",
+      "law": "Central Provident Fund Act - Mandatory Contributions",
+      "category": "法定缴费类Social Security / Statutory Funds",
+      "subCategory": "Pension",
+      "level1Category": "法定缴费类Social Security / Statutory Funds",
+      "level2Category": "养老金Pension",
+      "primaryCategory": "法定缴费类Social Security / Statutory Funds",
+      "secondaryCategory": "养老金Pension",
+      "summary": "Under the Central Provident Fund (CPF) Act, Singapore Citizens and Permanent Residents earning above S$500/month require mandatory CPF contributions from both employer and employee. Standard rates for employees aged 55 and below: Employer 17%, Employee 20% (total 37%). The Ordinary Wage ceiling is S$8,000/month from Jan 2026, and Additional Wage ceiling is capped at S$102,000 minus OW subject to CPF per year.",
+      "summaryZh": "根据新加坡《公积金法》,月薪超过500新元的新加坡公民和永久居民,雇主和雇员均须强制缴纳公积金。55岁以下员工标准费率:雇主17%,雇员20%(合计37%)。2026年1月起普通工资上限为8,000新元/月,附加工资年度上限为102,000新元减去应缴公积金的普通工资部分。",
+      "summaryEs": "Bajo la Ley del Fondo Central de Provident (CPF) de Singapur, los ciudadanos y residentes permanentes que ganan más de S$500/mes requieren contribuciones obligatorias de CPF. Tasas estándar para empleados de 55 años o menos: Empleador 17%, Empleado 20% (total 37%).",
+      "status": "effective",
+      "effectiveDate": "2026-01-01",
+      "source": "https://www.cpf.gov.sg/employer/employer-obligations/how-much-cpf-contributions-to-pay",
+      "sourceUrl": "https://www.cpf.gov.sg/employer/employer-obligations/how-much-cpf-contributions-to-pay",
+      "changes": [
+        "Employer CPF rate: 17% (age 55 and below)",
+        "Employee CPF rate: 20% (age 55 and below)",
+        "Ordinary Wage ceiling: S$8,000/month (from Jan 2026)",
+        "Additional Wage ceiling: S$102,000 annual cap minus OW subject to CPF"
+      ],
+      "changesZh": [
+        "雇主公积金费率:17%(55岁及以下)",
+        "雇员公积金费率:20%(55岁及以下)",
+        "普通工资上限:8,000新元/月(2026年1月起)",
+        "附加工资年度上限:102,000新元减去应缴公积金的普通工资部分"
+      ],
+      "changesEs": [
+        "Tasa CPF del empleador: 17% (55 años o menos)",
+        "Tasa CPF del empleado: 20% (55 años o menos)",
+        "Tope de Salario Ordinario: S$8,000/mes (desde ene 2026)",
+        "Tope de Salario Adicional: tope anual de S$102,000 menos OW"
+      ],
+      "hrImpact": [
+        "Payroll must apply age-tiered CPF rates (rates change at age 55, 60, 65, 70)",
+        "HR must submit CPF contributions via CPF EZPay by the 14th of following month",
+        "HR must not deduct employer's share of CPF from employee's wages"
+      ],
+      "hrImpactZh": [
+        "工资系统须按年龄分级应用公积金费率(55岁、60岁、65岁、70岁分档变化)",
+        "人力资源部须通过CPF EZPay在次月14日前提交公积金缴款",
+        "人力资源部不得从员工工资中扣除雇主承担的公积金份额"
+      ],
+      "hrImpactEs": [
+        "La nómina debe aplicar tasas de CPF escalonadas por edad",
+        "RRHH debe enviar contribuciones a través de CPF EZPay antes del día 14 del mes siguiente",
+        "RRHH no debe deducir la parte del empleador del salario del empleado"
+      ],
+      "modules": [
+        "Payroll",
+        "Social Security"
+      ],
+      "effectiveDateStatus": "confirmed",
+      "effectiveDateSource": "https://www.cpf.gov.sg/employer/employer-obligations/how-much-cpf-contributions-to-pay",
+      "effectiveDateEvidence": "CPF Ordinary Wage ceiling increased to S$8,000/month effective Jan 1, 2026 as announced by CPF Board.",
+      "categorySource": "Singapore CPF Board Official Portal",
+      "categoryStatus": "confirmed",
+      "classificationReason": "Central Provident Fund Act - mandatory retirement savings contribution",
+      "businessFields": {
+        "zh": {
+          "覆盖人群": "新加坡公民和永久居民",
+          "责任主体": "双边缴纳(雇主+雇员)",
+          "雇主费率": "17%(55岁及以下)",
+          "雇员费率": "20%(55岁及以下)",
+          "普通工资上限": "8,000新元/月",
+          "附加工资上限": "102,000新元/年",
+          "申报频次": "每月一次",
+          "缴款截止": "次月14日"
+        },
+        "en": {
+          "Covered Population": "Singapore Citizens and PRs",
+          "Responsible Party": "Bilateral (Employer + Employee)",
+          "Employer Rate": "17% (age ≤55)",
+          "Employee Rate": "20% (age ≤55)",
+          "Ordinary Wage Ceiling": "S$8,000/month",
+          "Additional Wage Ceiling": "S$102,000/year",
+          "Filing Frequency": "Monthly",
+          "Payment Deadline": "14th of following month"
+        }
+      },
+      "lawZh": "《中央公积金法》 - 强制缴费",
+      "lawEs": "Ley del Fondo Central de Provident - Contribuciones Obligatorias"
+    },
+    {
+      "id": "sg03",
+      "country": "Singapore",
+      "countryCode": "SG",
+      "region": "southeast-asia",
+      "flag": "🇸🇬",
+      "law": "Employment Act - Annual Leave (Section 43)",
+      "category": "休假类Leave",
+      "subCategory": "Annual Leave",
+      "level1Category": "休假类Leave",
+      "level2Category": "年假Annual Leave",
+      "primaryCategory": "休假类Leave",
+      "secondaryCategory": "年假Annual Leave",
+      "summary": "Under Section 43 of Singapore's Employment Act, employees who have served an employer for at least 3 months are entitled to paid annual leave: 7 days for the first year of service, increasing by 1 day per year up to a maximum of 14 days after 8 years of service. Employees must complete 12 months of service to earn the full annual leave entitlement.",
+      "summaryZh": "根据新加坡《雇佣法》第43条,受雇满3个月的员工享有带薪年假:服务第1年7天,此后每年增加1天,服务满8年后上限为14天。员工须完成12个月服务方可享受全额年假。",
+      "summaryEs": "Bajo la Sección 43 de la Ley de Empleo de Singapur, los empleados con al menos 3 meses de servicio tienen derecho a vacaciones anuales pagadas: 7 días el primer año, aumentando 1 día por año hasta un máximo de 14 días tras 8 años.",
+      "status": "effective",
+      "effectiveDate": "2019-04-01",
+      "source": "https://www.mom.gov.sg/employment-practices/leave/annual-leave",
+      "sourceUrl": "https://www.mom.gov.sg/employment-practices/leave/annual-leave",
+      "changes": [
+        "7 days annual leave in first year of service",
+        "1 additional day per year up to 14 days maximum",
+        "Employee must be employed for at least 3 months to be entitled",
+        "Unused leave forfeited unless carried forward per company policy"
+      ],
+      "changesZh": [
+        "服务第1年享有7天年假",
+        "此后每年增加1天,上限14天",
+        "员工须在职满3个月方可享受",
+        "未休年假除公司政策另有规定外自动作废"
+      ],
+      "changesEs": [
+        "7 días de vacaciones anuales en el primer año",
+        "1 día adicional por año hasta 14 días máximo",
+        "El empleado debe estar contratado al menos 3 meses",
+        "Vacaciones no utilizadas caducan salvo política de la empresa"
+      ],
+      "hrImpact": [
+        "Track years of continuous service per employee for correct accrual",
+        "Pro-rate leave for employees with less than 12 months in service year",
+        "Pay out unused accrued leave upon termination"
+      ],
+      "hrImpactZh": [
+        "跟踪每位员工的连续服务年限以确保正确累计",
+        "对服务不满12个月的员工按比例折算年假",
+        "员工离职时结算未使用年假"
+      ],
+      "hrImpactEs": [
+        "Rastrear años de servicio continuo por empleado para acumulación correcta",
+        "Prorratear vacaciones para empleados con menos de 12 meses",
+        "Liquidar vacaciones no utilizadas al terminar el empleo"
+      ],
+      "modules": [
+        "Leave Management",
+        "Payroll",
+        "Time & Attendance"
+      ],
+      "effectiveDateStatus": "confirmed",
+      "effectiveDateSource": "https://www.mom.gov.sg/employment-practices/leave/annual-leave",
+      "effectiveDateEvidence": "Employment Act amendments effective April 1, 2019 extended annual leave coverage to all employees (removing S$4,500 salary cap).",
+      "categorySource": "Singapore Ministry of Manpower Official Portal",
+      "categoryStatus": "confirmed",
+      "classificationReason": "Employment Act - Section 43 annual leave entitlement",
+      "businessFields": {
+        "zh": {
+          "适用范围": "所有员工(2019年4月起)",
+          "资格条件": "在职满3个月",
+          "第1年": "7天",
+          "第2年": "8天",
+          "第3年": "9天",
+          "递增规则": "每年+1天,上限14天(第8年及以后)",
+          "薪资待遇": "带薪"
+        },
+        "en": {
+          "Coverage": "All employees (from April 2019)",
+          "Eligibility": "3+ months of service",
+          "1st Year": "7 days",
+          "2nd Year": "8 days",
+          "3rd Year": "9 days",
+          "Increment": "+1 day per year, max 14 days (from 8th year)",
+          "Pay Status": "Paid"
+        }
+      },
+      "lawZh": "《雇佣法》 - 年假(第43条)",
+      "lawEs": "Ley de Empleo - Vacaciones Anuales (Sección 43)"
+    },
+    {
+      "id": "sg04",
+      "country": "Singapore",
+      "countryCode": "SG",
+      "region": "southeast-asia",
+      "flag": "🇸🇬",
+      "law": "Employment Act - Paid Sick Leave (Sections 89-90)",
+      "category": "休假类Leave",
+      "subCategory": "Sick Leave",
+      "level1Category": "休假类Leave",
+      "level2Category": "病假Sick Leave",
+      "primaryCategory": "休假类Leave",
+      "secondaryCategory": "病假Sick Leave",
+      "summary": "Under Sections 89-90 of Singapore's Employment Act, employees who have served for at least 3 months are entitled to paid outpatient sick leave (up to 14 days/year) and paid hospitalisation leave (up to 60 days/year, inclusive of outpatient sick leave). Entitlement is pro-rated for employees with 3-6 months of service.",
+      "summaryZh": "根据新加坡《雇佣法》第89-90条,受雇满3个月的员工享有带薪门诊病假(每年最多14天)和带薪住院假(每年最多60天,含门诊病假)。服务3-6个月的员工按比例享受。",
+      "summaryEs": "Bajo las Secciones 89-90 de la Ley de Empleo de Singapur, los empleados con al menos 3 meses de servicio tienen derecho a licencia por enfermedad ambulatoria pagada (hasta 14 días/año) y hospitalización pagada (hasta 60 días/año, incluida la ambulatoria).",
+      "status": "effective",
+      "effectiveDate": "2019-04-01",
+      "source": "https://www.mom.gov.sg/employment-practices/leave/sick-leave",
+      "sourceUrl": "https://www.mom.gov.sg/employment-practices/leave/sick-leave",
+      "changes": [
+        "14 days paid outpatient sick leave per year (after 6 months service)",
+        "60 days paid hospitalisation leave per year (inclusive of outpatient leave)",
+        "Medical certificate from company doctor or government-approved doctor required",
+        "Pro-rated entitlement for 3-6 months of service"
+      ],
+      "changesZh": [
+        "每年14天带薪门诊病假(服务满6个月)",
+        "每年60天带薪住院假(含门诊病假)",
+        "须由公司指定或政府认可医生开具病假证明",
+        "服务3-6个月按比例享受"
+      ],
+      "changesEs": [
+        "14 días de licencia por enfermedad ambulatoria pagada al año (tras 6 meses)",
+        "60 días de licencia por hospitalización pagada al año (incluida la ambulatoria)",
+        "Se requiere certificado médico de médico aprobado",
+        "Prorrateado para 3-6 meses de servicio"
+      ],
+      "hrImpact": [
+        "Track outpatient vs hospitalisation days separately",
+        "Verify medical certificates from qualified medical practitioners",
+        "Apply pro-rated entitlement for new hires (3-6 months service)"
+      ],
+      "hrImpactZh": [
+        "分别跟踪门诊和住院天数",
+        "核实由合格医师开具的病假证明",
+        "对新员工(3-6个月服务)按比例应用假期"
+      ],
+      "hrImpactEs": [
+        "Rastrear días ambulatorios vs hospitalización por separado",
+        "Verificar certificados médicos de profesionales calificados",
+        "Aplicar prorrateo para nuevas contrataciones"
+      ],
+      "modules": [
+        "Leave Management",
+        "Payroll",
+        "Time & Attendance"
+      ],
+      "effectiveDateStatus": "confirmed",
+      "effectiveDateSource": "https://www.mom.gov.sg/employment-practices/leave/sick-leave",
+      "effectiveDateEvidence": "Employment Act amendments effective April 1, 2019 extended sick leave coverage to all employees.",
+      "categorySource": "Singapore Ministry of Manpower Official Portal",
+      "categoryStatus": "confirmed",
+      "classificationReason": "Employment Act - Sections 89-90 paid sick leave entitlement",
+      "businessFields": {
+        "zh": {
+          "门诊病假上限": "14天/年",
+          "住院假上限": "60天/年(含门诊)",
+          "资格条件": "在职满3个月",
+          "全额资格": "在职满6个月",
+          "薪资待遇": "带薪",
+          "证明要求": "合格医师开具的病假证明"
+        },
+        "en": {
+          "Outpatient Cap": "14 days/year",
+          "Hospitalisation Cap": "60 days/year (inclusive)",
+          "Eligibility": "3+ months of service",
+          "Full Entitlement": "6+ months of service",
+          "Pay Status": "Paid",
+          "Certification": "Medical certificate from qualified doctor"
+        }
+      },
+      "lawZh": "《雇佣法》 - 带薪病假(第89-90条)",
+      "lawEs": "Ley de Empleo - Licencia por Enfermedad Pagada (Secciones 89-90)"
+    },
+    {
+      "id": "sg05",
+      "country": "Singapore",
+      "countryCode": "SG",
+      "region": "southeast-asia",
+      "flag": "🇸🇬",
+      "law": "Child Development Co-Savings Act - Government-Paid Maternity Leave",
+      "category": "休假类Leave",
+      "subCategory": "Maternity Leave",
+      "level1Category": "休假类Leave",
+      "level2Category": "产假Maternity Leave",
+      "primaryCategory": "休假类Leave",
+      "secondaryCategory": "产假Maternity Leave",
+      "summary": "Under Singapore's Government-Paid Maternity Leave (GPML) scheme, working mothers whose child is a Singapore Citizen and who have worked for at least 3 continuous months are entitled to 16 weeks of paid maternity leave. For the first 2 confinements, employer pays the first 8 weeks and the Government reimburses the last 8 weeks (capped at S$10,000/4-week period). For 3rd child onwards, all 16 weeks are Government-paid.",
+      "summaryZh": "根据新加坡政府带薪产假(GPML)计划,子女为新加坡公民且连续在职满3个月的在职母亲可享受16周带薪产假。前2次分娩:雇主支付前8周,政府报销后8周(每4周上限10,000新元)。第3胎及以后:全部16周由政府支付。",
+      "summaryEs": "Bajo el esquema de Permiso de Maternidad Pagado por el Gobierno (GPML) de Singapur, las madres trabajadoras cuyo hijo es ciudadano singapurense y que han trabajado al menos 3 meses continuos tienen derecho a 16 semanas de permiso de maternidad pagado.",
+      "status": "effective",
+      "effectiveDate": "2008-10-31",
+      "source": "https://www.mom.gov.sg/employment-practices/leave/maternity-leave",
+      "sourceUrl": "https://www.mom.gov.sg/employment-practices/leave/maternity-leave",
+      "changes": [
+        "16 weeks total maternity leave",
+        "1st and 2nd child: 8 weeks employer-paid + 8 weeks Government-paid",
+        "3rd child onwards: all 16 weeks Government-paid",
+        "Government reimbursement capped at S$10,000 per 4-week period (including CPF)"
+      ],
+      "changesZh": [
+        "共16周产假",
+        "第1和第2胎:雇主支付8周+政府支付8周",
+        "第3胎及以后:全部16周由政府支付",
+        "政府报销上限:每4周10,000新元(含公积金)"
+      ],
+      "changesEs": [
+        "16 semanas totales de permiso de maternidad",
+        "1er y 2do hijo: 8 semanas del empleador + 8 semanas del Gobierno",
+        "Del 3er hijo en adelante: 16 semanas del Gobierno",
+        "Reembolso gubernamental limitado a S$10,000 por 4 semanas"
+      ],
+      "hrImpact": [
+        "Determine leave funding split based on child order (1st/2nd vs 3rd+)",
+        "Submit GPML claims via Government-Paid Leave portal within 3 months of last day of leave",
+        "Continue CPF contributions during leave period"
+      ],
+      "hrImpactZh": [
+        "根据子女次序(第1/2胎与第3胎及以后)确定假期分担",
+        "在假期最后一天起3个月内通过政府带薪假门户申报GPML",
+        "假期期间继续缴纳公积金"
+      ],
+      "hrImpactEs": [
+        "Determinar división de financiación según orden del hijo",
+        "Presentar reclamaciones GPML dentro de 3 meses",
+        "Continuar contribuciones CPF durante el permiso"
+      ],
+      "modules": [
+        "Leave Management",
+        "Payroll",
+        "Statutory Reporting"
+      ],
+      "effectiveDateStatus": "confirmed",
+      "effectiveDateSource": "https://www.mom.gov.sg/employment-practices/leave/maternity-leave",
+      "effectiveDateEvidence": "Government-Paid Maternity Leave scheme under Child Development Co-Savings Act, 16-week entitlement effective October 31, 2008.",
+      "categorySource": "Singapore Ministry of Manpower Official Portal",
+      "categoryStatus": "confirmed",
+      "classificationReason": "Child Development Co-Savings Act - Government-Paid Maternity Leave scheme",
+      "businessFields": {
+        "zh": {
+          "总产假": "16周",
+          "第1-2胎分担": "雇主8周+政府8周",
+          "第3胎及以后": "政府全部16周",
+          "资格条件": "子女为新加坡公民,连续在职满3个月",
+          "政府报销上限": "10,000新元/4周(含公积金)",
+          "申报期限": "假期结束后3个月内"
+        },
+        "en": {
+          "Total Leave": "16 weeks",
+          "1st-2nd Child Split": "Employer 8wks + Gov 8wks",
+          "3rd Child+": "Gov all 16 weeks",
+          "Eligibility": "SC child, 3+ months continuous service",
+          "Gov Reimbursement Cap": "S$10,000 per 4-week period (incl. CPF)",
+          "Claim Deadline": "3 months after last day of leave"
+        }
+      },
+      "lawZh": "《儿童发展共同储蓄法》 - 政府带薪产假",
+      "lawEs": "Ley de Co-Ahorros para el Desarrollo Infantil - Permiso de Maternidad"
+    },
+    {
+      "id": "sg06",
+      "country": "Singapore",
+      "countryCode": "SG",
+      "region": "southeast-asia",
+      "flag": "🇸🇬",
+      "law": "Child Development Co-Savings Act - Government-Paid Paternity Leave",
+      "category": "休假类Leave",
+      "subCategory": "Paternity Leave",
+      "level1Category": "休假类Leave",
+      "level2Category": "陪产假Paternity Leave",
+      "primaryCategory": "休假类Leave",
+      "secondaryCategory": "陪产假Paternity Leave",
+      "summary": "Under Singapore's Government-Paid Paternity Leave (GPPL) scheme, working fathers whose child is a Singapore Citizen and who have worked for at least 3 continuous months are entitled to 4 weeks of paid paternity leave from April 1, 2025 (increased from 2 weeks). The leave is fully reimbursed by the Government, capped at S$2,500 per week (including CPF).",
+      "summaryZh": "根据新加坡政府带薪陪产假(GPPL)计划,子女为新加坡公民且连续在职满3个月的在职父亲从2025年4月1日起享有4周带薪陪产假(此前为2周)。全部假期由政府报销,每周上限2,500新元(含公积金)。",
+      "summaryEs": "Bajo el esquema de Permiso de Paternidad Pagado por el Gobierno (GPPL) de Singapur, los padres trabajadores cuyo hijo es ciudadano singapurense tienen derecho a 4 semanas de permiso de paternidad pagado desde el 1 de abril de 2025 (aumentado de 2 semanas).",
+      "status": "effective",
+      "effectiveDate": "2025-04-01",
+      "source": "https://www.mom.gov.sg/employment-practices/leave/paternity-leave",
+      "sourceUrl": "https://www.mom.gov.sg/employment-practices/leave/paternity-leave",
+      "changes": [
+        "Paternity leave increased from 2 to 4 weeks from April 1, 2025",
+        "Fully reimbursed by Government (capped at S$2,500/week including CPF)",
+        "Applies to fathers of Singapore Citizen children born on/after Apr 1, 2025",
+        "Must be legally married to the child's mother"
+      ],
+      "changesZh": [
+        "陪产假从2周增至4周(2025年4月1日起)",
+        "全部由政府报销(每周上限2,500新元,含公积金)",
+        "适用于2025年4月1日或之后出生的新加坡公民子女的父亲",
+        "须与子女母亲有合法婚姻关系"
+      ],
+      "changesEs": [
+        "Permiso de paternidad aumentado de 2 a 4 semanas desde el 1 de abril de 2025",
+        "Totalmente reembolsado por el Gobierno (tope de S$2,500/semana incluido CPF)",
+        "Aplica a padres de hijos nacidos el 1 abril 2025 o después",
+        "Debe estar legalmente casado con la madre"
+      ],
+      "hrImpact": [
+        "Update paternity leave policy from 2 to 4 weeks for eligible fathers",
+        "Submit GPPL claims via Government-Paid Leave portal",
+        "Verify marital status and child's citizenship for eligibility"
+      ],
+      "hrImpactZh": [
+        "对合资格父亲将陪产假政策从2周更新为4周",
+        "通过政府带薪假门户申报GPPL",
+        "核实婚姻状况和子女国籍以确认资格"
+      ],
+      "hrImpactEs": [
+        "Actualizar política de permiso de paternidad de 2 a 4 semanas",
+        "Presentar reclamaciones GPPL",
+        "Verificar estado civil y ciudadanía del hijo"
+      ],
+      "modules": [
+        "Leave Management",
+        "Payroll",
+        "Statutory Reporting"
+      ],
+      "effectiveDateStatus": "confirmed",
+      "effectiveDateSource": "https://www.mom.gov.sg/employment-practices/leave/paternity-leave",
+      "effectiveDateEvidence": "Paternity leave doubled from 2 to 4 weeks effective April 1, 2025, per Ministry of Manpower announcement.",
+      "categorySource": "Singapore Ministry of Manpower Official Portal",
+      "categoryStatus": "confirmed",
+      "classificationReason": "Child Development Co-Savings Act - Government-Paid Paternity Leave scheme (expanded 2025)",
+      "businessFields": {
+        "zh": {
+          "陪产假天数": "4周(2025年4月起)",
+          "资金来源": "全部政府支付",
+          "上限": "2,500新元/周(含公积金)",
+          "资格条件": "子女为新加坡公民,与母亲合法婚姻,连续在职满3个月",
+          "适用时间": "2025年4月1日或之后出生的子女"
+        },
+        "en": {
+          "Paternity Leave": "4 weeks (from April 2025)",
+          "Funding": "Fully Government-paid",
+          "Cap": "S$2,500/week (incl. CPF)",
+          "Eligibility": "SC child, married to mother, 3+ months continuous service",
+          "Applies to": "Children born on/after April 1, 2025"
+        }
+      },
+      "lawZh": "《儿童发展共同储蓄法》 - 政府带薪陪产假",
+      "lawEs": "Ley de Co-Ahorros para el Desarrollo Infantil - Permiso de Paternidad"
+    },
+    {
+      "id": "sg07",
+      "country": "Singapore",
+      "countryCode": "SG",
+      "region": "southeast-asia",
+      "flag": "🇸🇬",
+      "law": "Employment Act Part 4 - Rest Day and Public Holiday Pay",
+      "category": "工时与加班Working Time & Overtime",
+      "subCategory": "Holiday Overtime",
+      "level1Category": "工时与加班Working Time & Overtime",
+      "level2Category": "节假日加班Holiday Overtime",
+      "primaryCategory": "工时与加班Working Time & Overtime",
+      "secondaryCategory": "节假日加班Holiday Overtime",
+      "summary": "Under Part 4 of Singapore's Employment Act, employees covered (non-workmen earning ≤S$2,600/month, workmen earning ≤S$4,500/month) must be given 1 rest day per week. Work on a rest day at employer's request is paid at 1 day's salary (≤half normal hours), 2 days' salary (>half normal hours), plus overtime for work beyond normal daily hours. Singapore has 11 gazetted public holidays; work on a public holiday earns an extra day's basic pay or a day off in lieu.",
+      "summaryZh": "根据新加坡《雇佣法》第4部分,受该部分保护的员工(非体力工月薪≤2,600新元、体力工月薪≤4,500新元)每周须享有1天休息日。雇主要求休息日工作的支付:工作时间≤半天正常工时支付1天工资,>半天支付2天工资,超出正常日工时另加加班费。新加坡有11个法定公共假日;公共假日工作可获额外1天基本工资或调休。",
+      "summaryEs": "Bajo la Parte 4 de la Ley de Empleo de Singapur, los empleados cubiertos deben tener 1 día de descanso por semana. Trabajar en día de descanso a solicitud del empleador se paga a 1 día de salario (≤mitad de horas), 2 días (>mitad de horas), más horas extra. Los 11 días festivos otorgan pago adicional o día compensatorio.",
+      "status": "effective",
+      "effectiveDate": "2019-04-01",
+      "source": "https://www.mom.gov.sg/employment-practices/hours-of-work-overtime-and-rest-days",
+      "sourceUrl": "https://www.mom.gov.sg/employment-practices/hours-of-work-overtime-and-rest-days",
+      "changes": [
+        "1 rest day per week required for Part 4 employees",
+        "Work on rest day: 1 day's salary (≤half normal hours), 2 days' salary (>half)",
+        "Overtime beyond normal daily hours: additional 1.5x hourly rate",
+        "11 gazetted public holidays per year, extra day's pay or day-in-lieu for work",
+        "Maximum interval between rest days: 12 days"
+      ],
+      "changesZh": [
+        "第4部分员工每周须有1天休息日",
+        "休息日工作:工时≤半天付1天工资,>半天付2天工资",
+        "超出正常日工时的加班:另加1.5倍小时工资",
+        "每年11个法定公共假日,工作可获额外1天工资或调休",
+        "两次休息日最大间隔:12天"
+      ],
+      "changesEs": [
+        "1 día de descanso por semana requerido para empleados de Parte 4",
+        "Trabajo en día de descanso: 1 día (≤mitad horas), 2 días (>mitad)",
+        "Horas extra: 1.5x tarifa horaria adicional",
+        "11 días festivos gazettados anuales",
+        "Intervalo máximo entre descansos: 12 días"
+      ],
+      "hrImpact": [
+        "Roster rest days no more than 12 days apart",
+        "Apply correct pay tiers for rest day and public holiday work",
+        "Track public holiday work for pay-in-lieu vs day-off decisions"
+      ],
+      "hrImpactZh": [
+        "排班时休息日间隔不超过12天",
+        "对休息日和公共假日工作应用正确的支付层级",
+        "跟踪公共假日工作情况以决定调休或加班费"
+      ],
+      "hrImpactEs": [
+        "Programar descansos con no más de 12 días de separación",
+        "Aplicar niveles de pago correctos para descanso y festivos",
+        "Rastrear trabajo en festivos para decisiones de pago vs día libre"
+      ],
+      "modules": [
+        "Time & Attendance",
+        "Payroll",
+        "Scheduling"
+      ],
+      "effectiveDateStatus": "confirmed",
+      "effectiveDateSource": "https://www.mom.gov.sg/employment-practices/hours-of-work-overtime-and-rest-days",
+      "effectiveDateEvidence": "Employment Act Part 4 provisions extended to broader employee coverage effective April 1, 2019.",
+      "categorySource": "Singapore Ministry of Manpower Official Portal",
+      "categoryStatus": "confirmed",
+      "classificationReason": "Employment Act Part 4 - rest day and public holiday work compensation",
+      "businessFields": {
+        "zh": {
+          "覆盖范围": "非体力工≤2,600新元/月;体力工≤4,500新元/月",
+          "休息日": "每周1天,间隔≤12天",
+          "休息日工作(≤半天)": "1天工资",
+          "休息日工作(>半天)": "2天工资",
+          "超出日工时加班": "另加1.5倍小时工资",
+          "公共假日数量": "11天/年",
+          "公共假日工作": "额外1天工资或调休"
+        },
+        "en": {
+          "Coverage": "Non-workmen ≤S$2,600/mo; Workmen ≤S$4,500/mo",
+          "Rest Day": "1 per week, ≤12 days apart",
+          "Rest Day Work (≤½ hrs)": "1 day's salary",
+          "Rest Day Work (>½ hrs)": "2 days' salary",
+          "OT Beyond Daily Hours": "+1.5x hourly rate",
+          "Public Holidays": "11 per year",
+          "PH Work": "Extra day's pay or day-in-lieu"
+        }
+      },
+      "lawZh": "《雇佣法》第4部分 - 休息日和公共假日工资",
+      "lawEs": "Ley de Empleo Parte 4 - Día de Descanso y Pago de Festivos"
+    },
+    {
+      "id": "sg08",
+      "country": "Singapore",
+      "countryCode": "SG",
+      "region": "southeast-asia",
+      "flag": "🇸🇬",
+      "law": "Employment Act Part 4 - Working Hours and Overtime (Section 38)",
+      "category": "工时与加班Working Time & Overtime",
+      "subCategory": "Weekday Overtime",
+      "level1Category": "工时与加班Working Time & Overtime",
+      "level2Category": "工作日加班Weekday Overtime",
+      "primaryCategory": "工时与加班Working Time & Overtime",
+      "secondaryCategory": "工作日加班Weekday Overtime",
+      "summary": "Under Section 38 of Singapore's Employment Act (Part 4), contractual working hours are capped at 8 hours/day (or 9 hours/day for 5-day workweek) and 44 hours/week. Overtime is paid at 1.5x the hourly basic rate, calculated as (12 × Monthly basic salary) / (52 × 44). Maximum overtime is 72 hours/month. Non-workmen earning ≤S$2,600/month and workmen earning ≤S$4,500/month are eligible for overtime pay.",
+      "summaryZh": "根据新加坡《雇佣法》第38条(第4部分),合同工时上限为每日8小时(5天工作制为9小时)和每周44小时。加班费按小时基本工资的1.5倍支付,计算公式为(12×月基本工资)/(52×44)。每月加班上限72小时。非体力工月薪≤2,600新元、体力工月薪≤4,500新元的员工有权享受加班费。",
+      "summaryEs": "Bajo la Sección 38 de la Ley de Empleo de Singapur (Parte 4), las horas contractuales están limitadas a 8 horas/día (o 9 horas para semana de 5 días) y 44 horas/semana. Las horas extra se pagan a 1.5x la tarifa horaria básica. Máximo 72 horas de horas extra/mes.",
+      "status": "effective",
+      "effectiveDate": "2019-04-01",
+      "source": "https://www.mom.gov.sg/employment-practices/hours-of-work-overtime-and-rest-days",
+      "sourceUrl": "https://www.mom.gov.sg/employment-practices/hours-of-work-overtime-and-rest-days",
+      "changes": [
+        "Contractual work hours: 8 hours/day (or 9 hours for 5-day week), 44 hours/week max",
+        "Overtime rate: 1.5x hourly basic rate = (12 × Monthly salary) / (52 × 44)",
+        "Overtime cap: 72 hours/month (excluding rest day and public holiday work)",
+        "Maximum daily work: 12 hours/day (14 hours with MOM overtime exemption)",
+        "Payment within 14 days after salary period ends"
+      ],
+      "changesZh": [
+        "合同工时:每日8小时(5天工作制9小时),每周最多44小时",
+        "加班费率:小时基本工资的1.5倍=(12×月薪)/(52×44)",
+        "加班上限:每月72小时(不含休息日和公共假日)",
+        "每日最长工时:12小时(经人力部豁免可至14小时)",
+        "工资须在工资周期结束后14天内支付"
+      ],
+      "changesEs": [
+        "Horas contractuales: 8h/día (o 9h para semana de 5 días), máx 44h/semana",
+        "Tasa de horas extra: 1.5x tarifa horaria básica = (12 × Salario mensual) / (52 × 44)",
+        "Tope de horas extra: 72 horas/mes",
+        "Máximo diario: 12 horas/día",
+        "Pago dentro de 14 días del período salarial"
+      ],
+      "hrImpact": [
+        "Calculate hourly rate using (12 × Monthly salary) / (52 × 44) formula",
+        "Track overtime hours to enforce 72-hour monthly cap",
+        "Apply for MOM overtime exemption if 12+ hours/day required",
+        "Pay overtime within 14 days after end of salary period"
+      ],
+      "hrImpactZh": [
+        "使用(12×月薪)/(52×44)公式计算小时工资",
+        "跟踪加班时数以执行每月72小时上限",
+        "如每日工作超过12小时须向人力部申请加班豁免",
+        "加班费须在工资周期结束后14天内支付"
+      ],
+      "hrImpactEs": [
+        "Calcular tarifa horaria usando (12 × Salario mensual) / (52 × 44)",
+        "Rastrear horas extra para límite de 72 horas mensuales",
+        "Solicitar exención MOM si se requieren 12+ horas/día",
+        "Pagar horas extra dentro de 14 días"
+      ],
+      "modules": [
+        "Time & Attendance",
+        "Payroll",
+        "Compliance"
+      ],
+      "effectiveDateStatus": "confirmed",
+      "effectiveDateSource": "https://www.mom.gov.sg/employment-practices/hours-of-work-overtime-and-rest-days",
+      "effectiveDateEvidence": "Employment Act Part 4 provisions extended to broader employee coverage effective April 1, 2019.",
+      "categorySource": "Singapore Ministry of Manpower Official Portal",
+      "categoryStatus": "confirmed",
+      "classificationReason": "Employment Act Section 38 - working hours, overtime cap, and overtime pay rate",
+      "businessFields": {
+        "zh": {
+          "覆盖范围": "非体力工≤2,600新元/月;体力工≤4,500新元/月",
+          "每日工时上限": "8小时(5天制9小时)",
+          "每周工时上限": "44小时",
+          "加班费率": "1.5倍小时基本工资",
+          "小时工资公式": "(12×月薪)/(52×44)",
+          "每月加班上限": "72小时",
+          "每日最长工时": "12小时(豁免后14小时)",
+          "支付期限": "工资周期结束后14天内"
+        },
+        "en": {
+          "Coverage": "Non-workmen ≤S$2,600/mo; Workmen ≤S$4,500/mo",
+          "Daily Hours Cap": "8h (9h for 5-day week)",
+          "Weekly Hours Cap": "44 hours",
+          "OT Rate": "1.5x hourly basic rate",
+          "Hourly Formula": "(12 × Monthly) / (52 × 44)",
+          "Monthly OT Cap": "72 hours",
+          "Max Daily Work": "12 hours (14 with exemption)",
+          "Payment Deadline": "Within 14 days of salary period end"
+        }
+      },
+      "lawZh": "《雇佣法》第4部分 - 工作时间和加班(第38条)",
+      "lawEs": "Ley de Empleo Parte 4 - Horas de Trabajo y Horas Extra (Sección 38)"
+    },
+    {
+      "id": "sg09",
+      "country": "Singapore",
+      "countryCode": "SG",
+      "region": "southeast-asia",
+      "flag": "🇸🇬",
+      "law": "Employment Act - Retrenchment Benefit Guidelines (MOM Tripartite Advisory)",
+      "category": "离职与遣散Termination & Severance",
+      "subCategory": "Legal standard",
+      "level1Category": "离职与遣散Termination & Severance",
+      "level2Category": "法定标准Legal standard",
+      "primaryCategory": "离职与遣散Termination & Severance",
+      "secondaryCategory": "法定标准Legal standard",
+      "summary": "Under Singapore's Employment Act, retrenchment benefits are payable to employees with at least 2 years of continuous service (as required by law). Actual amount is determined by contract or collective agreement; MOM Tripartite Advisory recommends between 2 weeks and 1 month of salary per year of service, with prevailing norm around 1 month per year. Employers with 10+ employees must notify MOM of retrenchments within 5 working days of notifying affected employees.",
+      "summaryZh": "根据新加坡《雇佣法》,连续服务满2年的员工在裁员时有权获得裁员补偿。具体金额由合同或集体协议确定;人力部三方咨询建议每服务年支付2周至1个月工资,主流水平约为每年1个月。雇佣10名及以上员工的雇主须在通知受影响员工后5个工作日内向人力部报告裁员。",
+      "summaryEs": "Bajo la Ley de Empleo de Singapur, los beneficios por reducción de plantilla se pagan a empleados con al menos 2 años de servicio continuo. El monto real lo determina el contrato o convenio colectivo; el Consejo Tripartito recomienda entre 2 semanas y 1 mes de salario por año de servicio.",
+      "status": "effective",
+      "effectiveDate": "2017-01-01",
+      "source": "https://www.mom.gov.sg/employment-practices/retrenchment",
+      "sourceUrl": "https://www.mom.gov.sg/employment-practices/retrenchment",
+      "changes": [
+        "Statutory entitlement: employees with 2+ years of continuous service",
+        "Prevailing norm: 2 weeks to 1 month of salary per year of service",
+        "MOM notification mandatory for employers with 10+ employees within 5 working days",
+        "Advance notice period required as per Employment Act Section 10"
+      ],
+      "changesZh": [
+        "法定资格:连续服务满2年的员工",
+        "主流标准:每服务年2周至1个月工资",
+        "10名及以上员工的雇主须在5个工作日内通知人力部",
+        "预告期须符合《雇佣法》第10条规定"
+      ],
+      "changesEs": [
+        "Elegibilidad legal: empleados con 2+ años de servicio continuo",
+        "Norma prevaleciente: 2 semanas a 1 mes de salario por año",
+        "Notificación MOM obligatoria para empleadores con 10+ empleados en 5 días laborables",
+        "Período de aviso previo requerido bajo Sección 10"
+      ],
+      "hrImpact": [
+        "Determine retrenchment benefit amount per employment contract or collective agreement",
+        "Notify MOM within 5 working days if company has 10+ employees",
+        "Provide required notice period (or pay in lieu) under Employment Act Section 10"
+      ],
+      "hrImpactZh": [
+        "根据雇佣合同或集体协议确定裁员补偿金额",
+        "如公司雇佣10名及以上员工,须在5个工作日内通知人力部",
+        "根据《雇佣法》第10条提供所需预告期(或代通知金)"
+      ],
+      "hrImpactEs": [
+        "Determinar monto de beneficio por reducción según contrato o convenio",
+        "Notificar MOM en 5 días laborables si tiene 10+ empleados",
+        "Proporcionar período de aviso requerido bajo Sección 10"
+      ],
+      "modules": [
+        "Termination",
+        "Payroll",
+        "Statutory Reporting"
+      ],
+      "effectiveDateStatus": "confirmed",
+      "effectiveDateSource": "https://www.mom.gov.sg/employment-practices/retrenchment",
+      "effectiveDateEvidence": "Mandatory retrenchment notification requirement introduced under Ministry of Manpower rules effective January 2017.",
+      "categorySource": "Singapore Ministry of Manpower Official Portal",
+      "categoryStatus": "confirmed",
+      "classificationReason": "Employment Act - retrenchment benefit requirement (2+ years service) and MOM Tripartite Advisory on norms",
+      "businessFields": {
+        "zh": {
+          "法定资格": "连续服务满2年",
+          "主流补偿标准": "每服务年2周至1个月工资",
+          "普遍水平": "约每服务年1个月工资",
+          "MOM通知": "雇佣10+员工的公司须在5个工作日内通知",
+          "预告期": "按《雇佣法》第10条"
+        },
+        "en": {
+          "Statutory Eligibility": "2+ years continuous service",
+          "Prevailing Norm": "2 weeks to 1 month per year of service",
+          "Common Practice": "~1 month per year of service",
+          "MOM Notification": "10+ employees, within 5 working days",
+          "Notice Period": "Per Employment Act Section 10"
+        }
+      },
+      "lawZh": "《雇佣法》 - 裁员补偿指南(人力部三方咨询)",
+      "lawEs": "Ley de Empleo - Beneficios de Retrenchment (Consejo Tripartito MOM)"
+    },
+    {
+      "id": "sg10",
+      "country": "Singapore",
+      "countryCode": "SG",
+      "region": "southeast-asia",
+      "flag": "🇸🇬",
+      "law": "Employment Act - Notice of Termination (Section 10)",
+      "category": "离职与遣散Termination & Severance",
+      "subCategory": "Negotiate Resignation",
+      "level1Category": "离职与遣散Termination & Severance",
+      "level2Category": "协商离职Negotiate Resignation",
+      "primaryCategory": "离职与遣散Termination & Severance",
+      "secondaryCategory": "协商离职Negotiate Resignation",
+      "summary": "Under Section 10 of Singapore's Employment Act, either party (employer or employee) may terminate employment by giving prior notice: 1 day for service <26 weeks; 1 week for 26 weeks-2 years; 2 weeks for 2-5 years; 4 weeks for 5+ years. Notice can be waived by payment of salary in lieu. Notice periods must be equal for both employer and employee. If contract specifies a different notice period, the longer of the two applies.",
+      "summaryZh": "根据新加坡《雇佣法》第10条,雇主或雇员任一方均可通过提前通知终止雇佣:服务<26周为1天;26周-2年为1周;2-5年为2周;5年及以上为4周。可通过支付代通知金替代通知期。雇主和雇员的通知期须相等。如合同规定不同通知期,以较长者为准。",
+      "summaryEs": "Bajo la Sección 10 de la Ley de Empleo de Singapur, cualquier parte puede terminar el empleo dando aviso previo: 1 día para servicio <26 semanas; 1 semana para 26 semanas-2 años; 2 semanas para 2-5 años; 4 semanas para 5+ años. El aviso puede sustituirse por pago del salario correspondiente.",
+      "status": "effective",
+      "effectiveDate": "2019-04-01",
+      "source": "https://www.mom.gov.sg/employment-practices/termination-of-employment",
+      "sourceUrl": "https://www.mom.gov.sg/employment-practices/termination-of-employment",
+      "changes": [
+        "Notice period: <26 weeks service = 1 day",
+        "Notice period: 26 weeks-2 years = 1 week",
+        "Notice period: 2-5 years = 2 weeks",
+        "Notice period: 5+ years = 4 weeks",
+        "Notice must be equal for both parties; longer contractual notice prevails"
+      ],
+      "changesZh": [
+        "通知期:服务<26周为1天",
+        "通知期:26周-2年为1周",
+        "通知期:2-5年为2周",
+        "通知期:5年及以上为4周",
+        "双方通知期须相等;合同规定较长者优先"
+      ],
+      "changesEs": [
+        "Período de aviso: <26 semanas = 1 día",
+        "Período de aviso: 26 semanas-2 años = 1 semana",
+        "Período de aviso: 2-5 años = 2 semanas",
+        "Período de aviso: 5+ años = 4 semanas",
+        "El aviso debe ser igual para ambas partes"
+      ],
+      "hrImpact": [
+        "Determine correct notice period based on years of continuous service",
+        "Calculate payment in lieu of notice: (Basic salary + fixed allowances) × notice period",
+        "Ensure employment contract notice period is at least statutory minimum and equal both ways"
+      ],
+      "hrImpactZh": [
+        "根据连续服务年限确定正确的通知期",
+        "计算代通知金:(基本工资+固定津贴)×通知期",
+        "确保雇佣合同通知期不低于法定最低标准且双向对等"
+      ],
+      "hrImpactEs": [
+        "Determinar el período de aviso correcto según años de servicio continuo",
+        "Calcular pago en lugar de aviso: (Salario base + asignaciones fijas) × período",
+        "Garantizar aviso contractual mínimo legal e igual para ambas partes"
+      ],
+      "modules": [
+        "Termination",
+        "Payroll",
+        "Employee Relations"
+      ],
+      "effectiveDateStatus": "confirmed",
+      "effectiveDateSource": "https://www.mom.gov.sg/employment-practices/termination-of-employment",
+      "effectiveDateEvidence": "Employment Act amendments effective April 1, 2019 extended termination notice provisions to broader employee coverage.",
+      "categorySource": "Singapore Ministry of Manpower Official Portal",
+      "categoryStatus": "confirmed",
+      "classificationReason": "Employment Act - Section 10 termination notice periods",
+      "businessFields": {
+        "zh": {
+          "<26周服务": "1天通知期",
+          "26周-2年": "1周通知期",
+          "2-5年": "2周通知期",
+          "5年及以上": "4周通知期",
+          "代通知金": "(基本工资+固定津贴)×通知期天数",
+          "双方对等": "雇主和雇员通知期须相等",
+          "合同规定": "如更长以合同为准"
+        },
+        "en": {
+          "<26 weeks": "1 day notice",
+          "26 weeks-2 years": "1 week notice",
+          "2-5 years": "2 weeks notice",
+          "5+ years": "4 weeks notice",
+          "Salary in Lieu": "(Basic + fixed allowances) × notice days",
+          "Bilateral Equality": "Employer and employee notice must be equal",
+          "Contract Override": "Longer contractual notice prevails"
+        }
+      },
+      "lawZh": "《雇佣法》 - 解雇通知(第10条)",
+      "lawEs": "Ley de Empleo - Aviso de Terminación (Sección 10)"
+    },
+    {
+      "id": "sg11",
+      "country": "Singapore",
+      "countryCode": "SG",
+      "region": "southeast-asia",
+      "flag": "🇸🇬",
+      "law": "Income Tax Act - Individual Income Tax Progressive Rates",
+      "category": "个税Income Tax",
+      "subCategory": "Progressive Tax Rates",
+      "level1Category": "个税Income Tax",
+      "level2Category": "累进税率Progressive Tax Rates",
+      "primaryCategory": "个税Income Tax",
+      "secondaryCategory": "累进税率Progressive Tax Rates",
+      "summary": "Under Singapore's Income Tax Act, tax residents (Singapore Citizens/PRs, or foreigners staying 183+ days in a calendar year) are taxed at progressive rates for Year of Assessment 2024 onwards: 0% on first S$20,000; 2%-22% on S$20,001-S$320,000; 23% on S$320,001-S$500,000; 24% on S$500,001-S$1,000,000; and 24% top rate on income above S$1,000,000. Employers must submit Form IR8A/IR21 for tax reporting; no monthly withholding is required for local tax residents.",
+      "summaryZh": "根据新加坡《所得税法》,税务居民(新加坡公民/永久居民,或外国人在日历年居住≥183天)按累进税率征税(2024课税年度及以后):首20,000新元0%;20,001-320,000新元2%-22%;320,001-500,000新元23%;500,001-1,000,000新元24%;超过1,000,000新元最高税率24%。雇主须提交IR8A/IR21表进行税务申报;本地税务居民无需按月代扣。",
+      "summaryEs": "Bajo la Ley del Impuesto sobre la Renta de Singapur, los residentes fiscales pagan tasas progresivas para el Año de Evaluación 2024 en adelante: 0% en los primeros S$20,000; 2%-22% en S$20,001-S$320,000; 23% en S$320,001-S$500,000; 24% en S$500,001+. Los empleadores presentan formulario IR8A/IR21.",
+      "status": "effective",
+      "effectiveDate": "2024-01-01",
+      "source": "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/individual-income-tax-rates",
+      "sourceUrl": "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/individual-income-tax-rates",
+      "changes": [
+        "Tax resident: 183+ days in calendar year (or SC/PR by default)",
+        "Progressive rates from 0% to 24% across income brackets",
+        "First S$20,000 of chargeable income is tax-exempt",
+        "New 23% bracket added for S$320,001-S$500,000 (YA 2024)",
+        "New 24% top bracket for income above S$1,000,000 (YA 2024)"
+      ],
+      "changesZh": [
+        "税务居民:日历年内居住≥183天(公民/PR默认为居民)",
+        "累进税率:0%至24%,按收入区间划分",
+        "首20,000新元应税收入免税",
+        "2024课税年度新增23%档次(320,001-500,000新元)",
+        "2024课税年度新增24%最高档次(超过1,000,000新元)"
+      ],
+      "changesEs": [
+        "Residente fiscal: 183+ días en año calendario",
+        "Tasas progresivas del 0% al 24%",
+        "Primeros S$20,000 exentos",
+        "Nuevo tramo del 23% para S$320,001-S$500,000 (YA 2024)",
+        "Nuevo tramo máximo del 24% para +S$1,000,000 (YA 2024)"
+      ],
+      "hrImpact": [
+        "Submit Form IR8A for local employees by March 1 annually",
+        "Submit Form IR21 for foreign employees ceasing employment (tax clearance)",
+        "Determine tax residency status for expatriate employees (183-day rule)",
+        "Use Auto-Inclusion Scheme (AIS) if applicable for streamlined reporting"
+      ],
+      "hrImpactZh": [
+        "每年3月1日前为本地员工提交IR8A表",
+        "为终止雇佣的外籍员工提交IR21表(税务清关)",
+        "对外派员工应用183天规则判断税务居民身份",
+        "如适用可采用自动纳入方案(AIS)简化申报"
+      ],
+      "hrImpactEs": [
+        "Presentar Formulario IR8A antes del 1 de marzo",
+        "Presentar Formulario IR21 para empleados extranjeros que cesan (autorización fiscal)",
+        "Determinar residencia fiscal para expatriados (regla 183 días)",
+        "Usar Esquema de Auto-Inclusión (AIS) si aplica"
+      ],
+      "modules": [
+        "Payroll",
+        "Tax Compliance",
+        "Statutory Reporting"
+      ],
+      "effectiveDateStatus": "confirmed",
+      "effectiveDateSource": "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/individual-income-tax-rates",
+      "effectiveDateEvidence": "Updated progressive tax rates with new 23% and 24% brackets effective from Year of Assessment 2024 (calendar year 2023 income).",
+      "categorySource": "Singapore Inland Revenue Authority (IRAS) Official Portal",
+      "categoryStatus": "confirmed",
+      "classificationReason": "Income Tax Act - individual income tax progressive rates for tax residents",
+      "businessFields": {
+        "zh": {
+          "首20,000新元": "0%",
+          "20,001-30,000": "2%",
+          "30,001-40,000": "3.5%",
+          "40,001-80,000": "7%",
+          "80,001-120,000": "11.5%",
+          "120,001-160,000": "15%",
+          "160,001-200,000": "18%",
+          "200,001-240,000": "19%",
+          "240,001-280,000": "19.5%",
+          "280,001-320,000": "20%",
+          "320,001-500,000": "22%",
+          "500,001-1,000,000": "23%",
+          "1,000,000新元以上": "24%",
+          "税务居民": "日历年内居住≥183天或公民/PR",
+          "申报表格": "IR8A(本地)/ IR21(外籍离职)"
+        },
+        "en": {
+          "First S$20,000": "0%",
+          "S$20,001-30,000": "2%",
+          "S$30,001-40,000": "3.5%",
+          "S$40,001-80,000": "7%",
+          "S$80,001-120,000": "11.5%",
+          "S$120,001-160,000": "15%",
+          "S$160,001-200,000": "18%",
+          "S$200,001-240,000": "19%",
+          "S$240,001-280,000": "19.5%",
+          "S$280,001-320,000": "20%",
+          "S$320,001-500,000": "22%",
+          "S$500,001-1,000,000": "23%",
+          "Above S$1,000,000": "24%",
+          "Tax Resident": "183+ days in calendar year, or SC/PR",
+          "Filing Forms": "IR8A (local) / IR21 (foreigner ceasing)"
+        }
+      },
+      "lawZh": "《所得税法》 - 个人所得税累进税率",
+      "lawEs": "Ley del Impuesto sobre la Renta - Tasas Progresivas del Impuesto Individual"
+    },
+    {
+      "id": "th02",
+      "country": "Thailand",
+      "countryCode": "TH",
+      "region": "southeast-asia",
+      "flag": "🇹🇭",
+      "law": "Social Security Act B.E. 2533 - Old Age Pension Contributions",
+      "category": "法定缴费类Social Security / Statutory Funds",
+      "subCategory": "Pension",
+      "level1Category": "法定缴费类Social Security / Statutory Funds",
+      "level2Category": "养老金Pension",
+      "primaryCategory": "法定缴费类Social Security / Statutory Funds",
+      "secondaryCategory": "养老金Pension",
+      "summary": "Under Thailand's Social Security Act, both employer and employee must each contribute 5% of the employee's monthly wage to the Social Security Fund, with a wage ceiling of 15,000 THB per month (maximum contribution 750 THB per party per month). The government adds 2.75%. Contributions cover old age pension, sickness, maternity, invalidity, death, child allowance, and unemployment benefits.",
+      "summaryZh": "根据泰国《社会保障法》,雇主和雇员各需按员工月工资的5%缴纳社会保障基金,工资上限为每月15,000泰铢(每方最高缴费750泰铢/月)。政府另缴2.75%。该基金覆盖养老金、疾病、生育、伤残、死亡、子女津贴和失业救济金。",
+      "summaryEs": "Según la Ley de Seguridad Social de Tailandia, tanto el empleador como el empleado deben aportar cada uno el 5% del salario mensual del empleado al Fondo de Seguridad Social, con un tope salarial de 15,000 THB al mes.",
+      "status": "effective",
+      "effectiveDate": "1990-09-01",
+      "source": "https://www.sso.go.th/en/",
+      "sourceUrl": "https://www.sso.go.th/en/",
+      "changes": [
+        "Employer contribution rate: 5% of monthly wages",
+        "Employee contribution rate: 5% of monthly wages",
+        "Wage ceiling: 15,000 THB/month (maximum 750 THB per party)"
+      ],
+      "changesZh": [
+        "雇主缴费比例:月工资的5%",
+        "雇员缴费比例:月工资的5%",
+        "工资上限:15,000泰铢/月(每方最高750泰铢)"
+      ],
+      "changesEs": [
+        "Tasa de contribución del empleador: 5% del salario mensual",
+        "Tasa de contribución del empleado: 5% del salario mensual",
+        "Tope salarial: 15,000 THB/mes (máximo 750 THB por parte)"
+      ],
+      "hrImpact": [
+        "Payroll systems must calculate 5% employer and 5% employee SSF contributions monthly with the 15,000 THB wage cap",
+        "HR must register new employees with SSO within 30 days of hire and file monthly SPS 1-10 contribution forms"
+      ],
+      "hrImpactZh": [
+        "工资系统需按15,000泰铢工资上限每月计算雇主5%和雇员5%的社保缴费",
+        "人力资源部须在员工入职30天内到社保局办理注册,并按月提交SPS 1-10缴费申报表"
+      ],
+      "hrImpactEs": [
+        "Los sistemas de nómina deben calcular las contribuciones mensuales del 5% del empleador y del 5% del empleado con el tope salarial de 15,000 THB",
+        "RRHH debe registrar a nuevos empleados en el SSO dentro de los 30 días desde la contratación"
+      ],
+      "modules": [
+        "Payroll",
+        "Social Security"
+      ],
+      "effectiveDateStatus": "confirmed",
+      "effectiveDateSource": "https://www.sso.go.th/en/",
+      "effectiveDateEvidence": "Social Security Act B.E. 2533 (1990) established the Social Security Fund. Current 5%/5% rates and 15,000 THB ceiling confirmed by SSO official portal.",
+      "categorySource": "Thailand Social Security Office Official Portal",
+      "categoryStatus": "confirmed",
+      "classificationReason": "Social Security Act - old age pension and multi-benefit contribution provisions",
+      "businessFields": {
+        "zh": {
+          "缴费主体": "雇主和雇员",
+          "缴费比例": "各5%",
+          "工资基数上限": "15,000泰铢/月",
+          "最高缴费额": "每方750泰铢/月",
+          "政府补贴": "2.75%",
+          "覆盖范围": "养老、疾病、生育、伤残、死亡、子女津贴、失业"
+        },
+        "en": {
+          "Contribution Parties": "Employer and Employee",
+          "Contribution Rate": "5% each",
+          "Wage Base Cap": "15,000 THB/month",
+          "Maximum Contribution": "750 THB per party/month",
+          "Government Subsidy": "2.75%",
+          "Coverage": "Old age, sickness, maternity, invalidity, death, child allowance, unemployment"
+        }
+      },
+      "lawZh": "《社会保障法》佛历2533年 - 养老金缴费",
+      "lawEs": "Ley de Seguridad Social B.E. 2533 - Contribuciones a la Pensión de Vejez"
+    },
+    {
+      "id": "th03",
+      "country": "Thailand",
+      "countryCode": "TH",
+      "region": "southeast-asia",
+      "flag": "🇹🇭",
+      "law": "Workmen's Compensation Act B.E. 2537 - Workmen's Compensation Fund",
+      "category": "法定缴费类Social Security / Statutory Funds",
+      "subCategory": "Work Injury",
+      "level1Category": "法定缴费类Social Security / Statutory Funds",
+      "level2Category": "工伤保险Work Injury",
+      "primaryCategory": "法定缴费类Social Security / Statutory Funds",
+      "secondaryCategory": "工伤保险Work Injury",
+      "summary": "Under Thailand's Workmen's Compensation Act, employers alone must contribute to the Workmen's Compensation Fund at rates from 0.2% to 1.0% of annual wages (capped at 240,000 THB per employee per year), depending on the industry risk classification. Employees do not contribute. The fund covers medical expenses, rehabilitation, wage compensation, and death benefits for work-related injuries or illnesses.",
+      "summaryZh": "根据泰国《工伤补偿法》,雇主须单独向工伤补偿基金缴费,费率根据行业风险等级为员工年工资的0.2%至1.0%(每位员工年工资基数上限240,000泰铢)。员工不缴费。",
+      "summaryEs": "Según la Ley de Compensación de Trabajadores de Tailandia, solo el empleador debe aportar al Fondo de Compensación de Trabajadores con tasas del 0.2% al 1.0% del salario anual.",
+      "status": "effective",
+      "effectiveDate": "1994-07-01",
+      "source": "https://www.sso.go.th/en/",
+      "sourceUrl": "https://www.sso.go.th/en/",
+      "changes": [
+        "Employer-only contribution: 0.2%-1.0% of annual wages based on industry risk",
+        "Wage base cap: 240,000 THB per employee per year",
+        "Employees make no contribution to the Workmen's Compensation Fund"
+      ],
+      "changesZh": [
+        "仅由雇主缴费:根据行业风险为年工资的0.2%-1.0%",
+        "工资基数上限:每位员工年工资240,000泰铢",
+        "员工无需向工伤补偿基金缴费"
+      ],
+      "changesEs": [
+        "Contribución solo del empleador: 0.2%-1.0% del salario anual según riesgo del sector",
+        "Tope salarial: 240,000 THB por empleado al año",
+        "Los empleados no contribuyen al Fondo de Compensación de Trabajadores"
+      ],
+      "hrImpact": [
+        "HR must determine the correct industry risk rate and pay annual WCF contributions to SSO by January 31",
+        "HR must report work-related injuries within 15 days and assist injured employees with compensation claims"
+      ],
+      "hrImpactZh": [
+        "人力资源部须确定正确的行业风险费率,并在每年1月31日前向社保局缴纳工伤基金",
+        "人力资源部须在15天内报告工伤事故,并协助受伤员工申请赔偿"
+      ],
+      "hrImpactEs": [
+        "RRHH debe determinar la tasa de riesgo sectorial correcta y pagar la contribución anual al WCF al SSO antes del 31 de enero",
+        "RRHH debe reportar lesiones laborales en 15 días"
+      ],
+      "modules": [
+        "Payroll",
+        "Occupational Safety",
+        "Social Security"
+      ],
+      "effectiveDateStatus": "confirmed",
+      "effectiveDateSource": "https://www.sso.go.th/en/",
+      "effectiveDateEvidence": "Workmen's Compensation Act B.E. 2537 (1994) established the Workmen's Compensation Fund administered by SSO.",
+      "categorySource": "Thailand Social Security Office Official Portal",
+      "categoryStatus": "confirmed",
+      "classificationReason": "Workmen's Compensation Act - employer-only work injury contribution provisions",
+      "businessFields": {
+        "zh": {
+          "缴费主体": "仅雇主",
+          "缴费比例": "0.2%-1.0%(按行业风险)",
+          "工资基数上限": "240,000泰铢/员工/年",
+          "缴费频率": "年缴(1月31日前)",
+          "覆盖范围": "工伤医疗、康复、工资补偿、死亡抚恤"
+        },
+        "en": {
+          "Contribution Parties": "Employer only",
+          "Contribution Rate": "0.2%-1.0% (by industry risk)",
+          "Wage Base Cap": "240,000 THB/employee/year",
+          "Payment Frequency": "Annual (by January 31)",
+          "Coverage": "Work injury medical, rehabilitation, wage compensation, death benefits"
+        }
+      },
+      "lawZh": "《工伤补偿法》佛历2537年 - 工伤补偿基金",
+      "lawEs": "Ley de Compensación de Trabajadores B.E. 2537 - Fondo de Compensación"
+    },
+    {
+      "id": "th04",
+      "country": "Thailand",
+      "countryCode": "TH",
+      "region": "southeast-asia",
+      "flag": "🇹🇭",
+      "law": "Labour Protection Act B.E. 2541 - Annual Leave (Section 30)",
+      "category": "休假类Leave",
+      "subCategory": "Annual Leave",
+      "level1Category": "休假类Leave",
+      "level2Category": "年假Annual Leave",
+      "primaryCategory": "休假类Leave",
+      "secondaryCategory": "年假Annual Leave",
+      "summary": "Under Section 30 of Thailand's Labour Protection Act B.E. 2541, an employee who has worked continuously for one full year is entitled to at least 6 working days of paid annual leave per year. The employer schedules the leave in advance or by mutual agreement. Unused annual leave may be accumulated and carried forward if agreed by both parties.",
+      "summaryZh": "根据泰国《劳动保护法》佛历2541年第30条,连续工作满一年的员工每年至少享有6个工作日的带薪年假。雇主提前安排休假或与员工协商决定。",
+      "summaryEs": "Según la Sección 30 de la Ley de Protección Laboral de Tailandia B.E. 2541, un empleado que haya trabajado un año continuo tiene derecho a al menos 6 días laborables de vacaciones anuales pagadas al año.",
+      "status": "effective",
+      "effectiveDate": "1998-08-19",
+      "source": "https://www.mol.go.th/laws/?law_type=law-on-labor-protection-and-welfare",
+      "sourceUrl": "https://www.mol.go.th/laws/?law_type=law-on-labor-protection-and-welfare",
+      "changes": [
+        "Minimum 6 working days of paid annual leave after 1 year of continuous service",
+        "Employer schedules or mutually agrees on leave dates",
+        "Unused leave may be accumulated by mutual agreement"
+      ],
+      "changesZh": [
+        "连续工作满1年后至少享有6个工作日的带薪年假",
+        "由雇主安排休假日期或双方协商决定",
+        "经双方同意未使用年假可累积"
+      ],
+      "changesEs": [
+        "Mínimo 6 días laborables de vacaciones pagadas tras 1 año de servicio continuo",
+        "El empleador programa o acuerda las fechas de vacaciones",
+        "Los días no utilizados pueden acumularse por mutuo acuerdo"
+      ],
+      "hrImpact": [
+        "HR systems must accrue at least 6 days annual leave upon completing one year of service",
+        "HR must document leave scheduling agreements and pay out unused accrued leave on termination"
+      ],
+      "hrImpactZh": [
+        "人力资源系统须在员工工作满1年后累计至少6天年假,防止少发",
+        "人力资源部须记录休假安排协议,并在员工离职时结算未使用的年假"
+      ],
+      "hrImpactEs": [
+        "Los sistemas de RRHH deben acumular al menos 6 días de vacaciones al cumplirse un año de servicio",
+        "RRHH debe documentar los acuerdos de programación y liquidar las vacaciones no utilizadas"
+      ],
+      "modules": [
+        "Time & Attendance",
+        "Leave Management",
+        "Payroll"
+      ],
+      "effectiveDateStatus": "confirmed",
+      "effectiveDateSource": "https://www.mol.go.th/laws/?law_type=law-on-labor-protection-and-welfare",
+      "effectiveDateEvidence": "Labour Protection Act B.E. 2541 published in Royal Gazette on 20 February 1998, effective 19 August 1998.",
+      "categorySource": "Thailand Ministry of Labour Laws Portal",
+      "categoryStatus": "confirmed",
+      "classificationReason": "Labour Protection Act B.E. 2541 - Section 30 annual leave provision",
+      "businessFields": {
+        "zh": {
+          "法定最低年假": "6个工作日",
+          "适用条件": "连续工作满1年",
+          "薪资待遇": "带薪",
+          "安排方式": "雇主安排或双方协商",
+          "累积规则": "经双方同意可累积"
+        },
+        "en": {
+          "Statutory Minimum Annual Leave": "6 working days",
+          "Eligibility": "1 year of continuous service",
+          "Pay Status": "Paid",
+          "Scheduling": "Employer-scheduled or mutually agreed",
+          "Carry-over": "Allowed by mutual agreement"
+        }
+      },
+      "lawZh": "《劳动保护法》佛历2541年 - 年假(第30条)",
+      "lawEs": "Ley de Protección Laboral B.E. 2541 - Vacaciones Anuales (Sección 30)"
+    },
+    {
+      "id": "th05",
+      "country": "Thailand",
+      "countryCode": "TH",
+      "region": "southeast-asia",
+      "flag": "🇹🇭",
+      "law": "Labour Protection Act B.E. 2541 - Sick Leave (Sections 32 and 57)",
+      "category": "休假类Leave",
+      "subCategory": "Sick Leave",
+      "level1Category": "休假类Leave",
+      "level2Category": "病假Sick Leave",
+      "primaryCategory": "休假类Leave",
+      "secondaryCategory": "病假Sick Leave",
+      "summary": "Under Sections 32 and 57 of Thailand's Labour Protection Act B.E. 2541, employees are entitled to take sick leave as long as they are genuinely ill, and the employer must pay full wages for sick leave up to 30 working days per year. If sick leave lasts 3 or more consecutive working days, the employer may require a medical certificate.",
+      "summaryZh": "根据泰国《劳动保护法》佛历2541年第32条和第57条,员工患病期间有权请病假,雇主须按全薪支付每年最多30个工作日的病假工资。若病假连续达3个工作日或以上,雇主可要求员工提供合格医师开具的病假证明。",
+      "summaryEs": "Según las Secciones 32 y 57 de la Ley de Protección Laboral de Tailandia B.E. 2541, los empleados tienen derecho a licencia por enfermedad mientras estén realmente enfermos, y el empleador debe pagar el salario completo por hasta 30 días laborables al año.",
+      "status": "effective",
+      "effectiveDate": "1998-08-19",
+      "source": "https://www.mol.go.th/laws/?law_type=law-on-labor-protection-and-welfare",
+      "sourceUrl": "https://www.mol.go.th/laws/?law_type=law-on-labor-protection-and-welfare",
+      "changes": [
+        "Up to 30 working days of paid sick leave per year at full wages",
+        "Medical certificate may be required for 3 or more consecutive days",
+        "Work-related injury leave does not count against the 30-day limit"
+      ],
+      "changesZh": [
+        "每年最多30个工作日全薪病假",
+        "连续病假3天或以上可要求提供病假证明",
+        "工伤病假不计入30天限额"
+      ],
+      "changesEs": [
+        "Hasta 30 días laborables de licencia por enfermedad pagados al 100% del salario al año",
+        "Puede exigirse certificado médico para 3 o más días consecutivos",
+        "La licencia por lesión laboral no cuenta contra el límite de 30 días"
+      ],
+      "hrImpact": [
+        "Payroll must pay full wages for up to 30 sick leave days per calendar year without deduction",
+        "HR must configure sick leave workflow to accept medical certificates for absences of 3+ consecutive working days"
+      ],
+      "hrImpactZh": [
+        "工资系统须对每日历年度最多30天病假按全额工资支付,不得扣减",
+        "人力资源部须设置病假流程,对连续3个工作日及以上病假要求提交病假证明"
+      ],
+      "hrImpactEs": [
+        "La nómina debe pagar el salario íntegro hasta 30 días de enfermedad por año sin deducciones",
+        "RRHH debe configurar el flujo de licencia para exigir certificado médico en ausencias de 3+ días laborables consecutivos"
+      ],
+      "modules": [
+        "Leave Management",
+        "Payroll",
+        "Time & Attendance"
+      ],
+      "effectiveDateStatus": "confirmed",
+      "effectiveDateSource": "https://www.mol.go.th/laws/?law_type=law-on-labor-protection-and-welfare",
+      "effectiveDateEvidence": "Sections 32 and 57 of Labour Protection Act B.E. 2541 govern sick leave entitlement.",
+      "categorySource": "Thailand Ministry of Labour Laws Portal",
+      "categoryStatus": "confirmed",
+      "classificationReason": "Labour Protection Act B.E. 2541 - Section 32 (leave right) and Section 57 (paid up to 30 days)",
+      "businessFields": {
+        "zh": {
+          "法定病假上限": "30个工作日/年",
+          "薪资待遇": "全薪",
+          "医疗证明": "连续3天及以上可要求提供",
+          "特殊规定": "工伤病假不占用此额度"
+        },
+        "en": {
+          "Statutory Sick Leave Cap": "30 working days/year",
+          "Pay Status": "Full wages",
+          "Medical Certificate": "Required for 3+ consecutive days if requested",
+          "Special Rule": "Work injury leave not counted against cap"
+        }
+      },
+      "lawZh": "《劳动保护法》佛历2541年 - 病假(第32条和第57条)",
+      "lawEs": "Ley de Protección Laboral B.E. 2541 - Licencia por Enfermedad (Secciones 32 y 57)"
+    },
+    {
+      "id": "th06",
+      "country": "Thailand",
+      "countryCode": "TH",
+      "region": "southeast-asia",
+      "flag": "🇹🇭",
+      "law": "Labour Protection Act (No. 7) B.E. 2562 - Maternity Leave",
+      "category": "休假类Leave",
+      "subCategory": "Maternity Leave",
+      "level1Category": "休假类Leave",
+      "level2Category": "产假Maternity Leave",
+      "primaryCategory": "休假类Leave",
+      "secondaryCategory": "产假Maternity Leave",
+      "summary": "Under the Labour Protection Act (No. 7) B.E. 2562 (2019), pregnant female employees are entitled to 98 days of maternity leave per pregnancy, including antenatal check-up days and holidays falling within the leave period. The employer must pay wages for up to 45 days, and the Social Security Fund pays 50% of wages for another 45 days.",
+      "summaryZh": "根据泰国《劳动保护法(第7号)》佛历2562年(2019年),怀孕女员工每次怀孕享有98天产假,包括产前检查日和休假期间的节假日。雇主须支付最多45天工资,社保基金再按工资50%支付另外45天。",
+      "summaryEs": "Según la Ley de Protección Laboral (N.º 7) B.E. 2562 (2019), las empleadas embarazadas tienen derecho a 98 días de licencia de maternidad por embarazo, incluidos días de revisión prenatal y festivos dentro del período.",
+      "status": "effective",
+      "effectiveDate": "2019-05-05",
+      "source": "https://www.mol.go.th/laws/?law_type=law-on-labor-protection-and-welfare",
+      "sourceUrl": "https://www.mol.go.th/laws/?law_type=law-on-labor-protection-and-welfare",
+      "changes": [
+        "Maternity leave increased from 90 to 98 days per pregnancy",
+        "Antenatal check-up days now count toward the 98-day entitlement",
+        "Employer pays up to 45 days, Social Security Fund pays 50% for another 45 days"
+      ],
+      "changesZh": [
+        "产假从每次怀孕90天延长至98天",
+        "产前检查日现纳入98天产假范围",
+        "雇主支付最多45天,社保基金按50%再支付45天"
+      ],
+      "changesEs": [
+        "La licencia de maternidad aumentó de 90 a 98 días por embarazo",
+        "Los días de revisión prenatal se incluyen ahora en los 98 días",
+        "El empleador paga hasta 45 días y el SSF paga el 50% por otros 45 días"
+      ],
+      "hrImpact": [
+        "Leave module must allocate the full 98-day maternity leave including antenatal visits and public holidays",
+        "Payroll must pay employer's 45 days at full wage and coordinate the SSO 50%-of-wage claim for the following 45 days"
+      ],
+      "hrImpactZh": [
+        "休假模块须完整发放98天产假,包括产前检查日和产假期间的公共假日",
+        "工资系统须按全薪支付雇主承担的45天,并协调向社保局申领后45天工资的50%"
+      ],
+      "hrImpactEs": [
+        "El módulo de licencias debe asignar los 98 días completos, incluyendo revisiones prenatales y festivos",
+        "La nómina debe pagar los 45 días del empleador al 100% y coordinar el reclamo al SSO"
+      ],
+      "modules": [
+        "Leave Management",
+        "Payroll",
+        "Social Security"
+      ],
+      "effectiveDateStatus": "confirmed",
+      "effectiveDateSource": "https://www.mol.go.th/laws/?law_type=law-on-labor-protection-and-welfare",
+      "effectiveDateEvidence": "Labour Protection Act (No. 7) B.E. 2562 published in the Royal Gazette on 5 April 2019, effective 5 May 2019.",
+      "categorySource": "Thailand Ministry of Labour Laws Portal",
+      "categoryStatus": "confirmed",
+      "classificationReason": "Labour Protection Act (No. 7) B.E. 2562 - amendment to Section 41 maternity leave provisions",
+      "businessFields": {
+        "zh": {
+          "产假天数": "98天/次怀孕",
+          "包含范围": "产前检查日和产假期间节假日",
+          "雇主支付": "最多45天全薪",
+          "社保支付": "另外45天工资的50%(以15,000泰铢为上限)"
+        },
+        "en": {
+          "Maternity Leave Days": "98 days per pregnancy",
+          "Scope": "Includes antenatal check-ups and holidays within period",
+          "Employer Payment": "Up to 45 days at full wage",
+          "SSO Payment": "50% of wages for another 45 days (capped at 15,000 THB base)"
+        }
+      },
+      "lawZh": "《劳动保护法(第7号)》佛历2562年 - 产假",
+      "lawEs": "Ley de Protección Laboral (N.º 7) B.E. 2562 - Licencia de Maternidad"
+    },
+    {
+      "id": "th07",
+      "country": "Thailand",
+      "countryCode": "TH",
+      "region": "southeast-asia",
+      "flag": "🇹🇭",
+      "law": "Labour Protection Act B.E. 2541 - Working Hours (Section 23)",
+      "category": "工时与加班Working Time & Overtime",
+      "subCategory": "Weekday Overtime",
+      "level1Category": "工时与加班Working Time & Overtime",
+      "level2Category": "工作日加班Weekday Overtime",
+      "primaryCategory": "工时与加班Working Time & Overtime",
+      "secondaryCategory": "工作日加班Weekday Overtime",
+      "summary": "Under Section 23 of Thailand's Labour Protection Act B.E. 2541, normal working hours must not exceed 8 hours per day and 48 hours per week for general work (or 7 hours/day and 42 hours/week for hazardous work). Employees must be given a rest break of at least 1 hour after working no more than 5 consecutive hours.",
+      "summaryZh": "根据泰国《劳动保护法》佛历2541年第23条,一般工作的正常工时每日不得超过8小时,每周不得超过48小时。员工连续工作不超过5小时后须安排至少1小时休息时间。",
+      "summaryEs": "Según la Sección 23 de la Ley de Protección Laboral de Tailandia B.E. 2541, la jornada normal no debe exceder 8 horas al día y 48 horas a la semana.",
+      "status": "effective",
+      "effectiveDate": "1998-08-19",
+      "source": "https://www.mol.go.th/laws/?law_type=law-on-labor-protection-and-welfare",
+      "sourceUrl": "https://www.mol.go.th/laws/?law_type=law-on-labor-protection-and-welfare",
+      "changes": [
+        "Normal working hours cap: 8 hours/day and 48 hours/week for general work",
+        "Hazardous work capped at 7 hours/day and 42 hours/week",
+        "Mandatory rest break of at least 1 hour after 5 consecutive working hours"
+      ],
+      "changesZh": [
+        "一般工作正常工时上限:每日8小时、每周48小时",
+        "危险性工作限制为每日7小时、每周42小时",
+        "连续工作5小时后须至少休息1小时"
+      ],
+      "changesEs": [
+        "Jornada normal máxima: 8 horas/día y 48 horas/semana para trabajo general",
+        "Trabajo peligroso limitado a 7 horas/día y 42 horas/semana",
+        "Descanso obligatorio de al menos 1 hora tras 5 horas consecutivas"
+      ],
+      "hrImpact": [
+        "Time & attendance systems must enforce 8-hour daily and 48-hour weekly limits",
+        "HR must ensure schedules include a mandatory 1-hour rest break after no more than 5 consecutive working hours"
+      ],
+      "hrImpactZh": [
+        "考勤系统须强制执行每日8小时和每周48小时的工时上限",
+        "人力资源部须确保排班在连续工作最多5小时后安排至少1小时的休息"
+      ],
+      "hrImpactEs": [
+        "Los sistemas de asistencia deben aplicar los límites de 8 horas/día y 48 horas/semana",
+        "RRHH debe garantizar que los horarios incluyan un descanso obligatorio de 1 hora"
+      ],
+      "modules": [
+        "Time & Attendance",
+        "Scheduling",
+        "Payroll"
+      ],
+      "effectiveDateStatus": "confirmed",
+      "effectiveDateSource": "https://www.mol.go.th/laws/?law_type=law-on-labor-protection-and-welfare",
+      "effectiveDateEvidence": "Section 23 of Labour Protection Act B.E. 2541 governs normal working hours.",
+      "categorySource": "Thailand Ministry of Labour Laws Portal",
+      "categoryStatus": "confirmed",
+      "classificationReason": "Labour Protection Act B.E. 2541 - Section 23 working hours and rest break provisions",
+      "businessFields": {
+        "zh": {
+          "标准日工时": "不超过8小时",
+          "标准周工时": "不超过48小时",
+          "危险作业工时": "每日7小时/每周42小时",
+          "休息时间": "连续5小时后至少1小时"
+        },
+        "en": {
+          "Standard Daily Hours": "Max 8 hours",
+          "Standard Weekly Hours": "Max 48 hours",
+          "Hazardous Work Hours": "7 hours/day and 42 hours/week",
+          "Rest Break": "At least 1 hour after 5 consecutive hours"
+        }
+      },
+      "lawZh": "《劳动保护法》佛历2541年 - 工作时间(第23条)",
+      "lawEs": "Ley de Protección Laboral B.E. 2541 - Horas de Trabajo (Sección 23)"
+    },
+    {
+      "id": "th08",
+      "country": "Thailand",
+      "countryCode": "TH",
+      "region": "southeast-asia",
+      "flag": "🇹🇭",
+      "law": "Labour Protection Act B.E. 2541 - Overtime and Holiday Work Pay (Sections 61-63)",
+      "category": "工时与加班Working Time & Overtime",
+      "subCategory": "Holiday Overtime",
+      "level1Category": "工时与加班Working Time & Overtime",
+      "level2Category": "节假日加班Holiday Overtime",
+      "primaryCategory": "工时与加班Working Time & Overtime",
+      "secondaryCategory": "节假日加班Holiday Overtime",
+      "summary": "Under Sections 61-63 of Thailand's Labour Protection Act B.E. 2541, employers must pay premium rates: overtime on a normal working day at 1.5x hourly wage; work on a holiday at 1x additional for daily-wage employees or 2x total for monthly-salaried employees; overtime hours on a holiday at 3x hourly wage. Total overtime plus holiday work must not exceed 36 hours per week.",
+      "summaryZh": "根据泰国《劳动保护法》佛历2541年第61-63条,雇主对超过正常工时的工作须支付加班费:正常工作日加班按小时工资1.5倍支付;节假日工作,日薪员工额外支付1倍小时工资,月薪员工按2倍支付;节假日加班按小时工资3倍支付。",
+      "summaryEs": "Según las Secciones 61-63 de la Ley de Protección Laboral de Tailandia B.E. 2541, el empleador debe pagar tarifas premium por trabajo extra: horas extra en día laboral a 1.5x, trabajo en festivo a 1x/2x, horas extra en festivo a 3x.",
+      "status": "effective",
+      "effectiveDate": "1998-08-19",
+      "source": "https://www.mol.go.th/laws/?law_type=law-on-labor-protection-and-welfare",
+      "sourceUrl": "https://www.mol.go.th/laws/?law_type=law-on-labor-protection-and-welfare",
+      "changes": [
+        "Overtime on normal working day paid at 1.5x hourly wage",
+        "Overtime on a holiday paid at 3x hourly wage",
+        "Total overtime and holiday work capped at 36 hours per week, employee consent required"
+      ],
+      "changesZh": [
+        "正常工作日加班按小时工资1.5倍支付",
+        "节假日加班按小时工资3倍支付",
+        "加班和节假日工作合计每周不超过36小时,须员工同意"
+      ],
+      "changesEs": [
+        "Horas extra en día laboral se pagan a 1.5x la tarifa horaria",
+        "Horas extra en festivo se pagan a 3x la tarifa horaria",
+        "El total no debe superar 36 horas/semana"
+      ],
+      "hrImpact": [
+        "Payroll must apply 1.5x for weekday overtime, 2x/3x for holiday work and holiday overtime per employee wage type",
+        "HR must record employee overtime consent and enforce the 36-hour weekly overtime plus holiday work ceiling"
+      ],
+      "hrImpactZh": [
+        "工资系统须根据员工薪资类型区分:工作日加班按1.5倍、节假日工作按2倍、节假日加班按3倍计算",
+        "人力资源部须记录员工加班同意书,并执行加班加节假日工作每周36小时上限"
+      ],
+      "hrImpactEs": [
+        "La nómina debe aplicar 1.5x en día laboral, 2x/3x en festivos y horas extra en festivo",
+        "RRHH debe registrar el consentimiento del empleado y aplicar el tope de 36 horas"
+      ],
+      "modules": [
+        "Payroll",
+        "Time & Attendance",
+        "Compliance"
+      ],
+      "effectiveDateStatus": "confirmed",
+      "effectiveDateSource": "https://www.mol.go.th/laws/?law_type=law-on-labor-protection-and-welfare",
+      "effectiveDateEvidence": "Sections 61-63 of Labour Protection Act B.E. 2541 govern overtime and holiday work pay.",
+      "categorySource": "Thailand Ministry of Labour Laws Portal",
+      "categoryStatus": "confirmed",
+      "classificationReason": "Labour Protection Act B.E. 2541 - Sections 61-63 overtime and holiday premium pay provisions",
+      "businessFields": {
+        "zh": {
+          "工作日加班": "小时工资的1.5倍",
+          "节假日工作(日薪)": "额外1倍小时工资",
+          "节假日工作(月薪)": "小时工资的2倍",
+          "节假日加班": "小时工资的3倍",
+          "加班上限": "36小时/周(加班+节假日工作)",
+          "员工同意": "须书面同意"
+        },
+        "en": {
+          "Weekday Overtime": "1.5x hourly wage",
+          "Holiday Work (Daily-wage)": "1x additional hourly wage",
+          "Holiday Work (Monthly-salaried)": "2x hourly wage",
+          "Holiday Overtime": "3x hourly wage",
+          "Overtime Cap": "36 hours/week (OT + holiday work)",
+          "Consent": "Written consent required"
+        }
+      },
+      "lawZh": "《劳动保护法》佛历2541年 - 加班和节假日工资(第61-63条)",
+      "lawEs": "Ley de Protección Laboral B.E. 2541 - Horas Extra y Trabajo en Festivos (Secciones 61-63)"
+    },
+    {
+      "id": "th09",
+      "country": "Thailand",
+      "countryCode": "TH",
+      "region": "southeast-asia",
+      "flag": "🇹🇭",
+      "law": "Labour Protection Act (No. 7) B.E. 2562 - Severance Pay (Section 118)",
+      "category": "离职与遣散Termination & Severance",
+      "subCategory": "Legal standard",
+      "level1Category": "离职与遣散Termination & Severance",
+      "level2Category": "法定标准Legal standard",
+      "primaryCategory": "离职与遣散Termination & Severance",
+      "secondaryCategory": "法定标准Legal standard",
+      "summary": "Under Section 118 of Thailand's Labour Protection Act (as amended by Act No. 7 B.E. 2562, 2019), an employee terminated without cause is entitled to statutory severance pay based on continuous service: 30 days after 120 days-1 year; 90 days after 1-3 years; 180 days after 3-6 years; 240 days after 6-10 years; 300 days after 10-20 years; and 400 days' wages after 20 or more years.",
+      "summaryZh": "根据泰国《劳动保护法(经佛历2562年第7号修订)》第118条,无过错解雇员工须按连续工龄支付法定遣散费:120天-1年支付30天工资;1-3年支付90天;3-6年支付180天;6-10年支付240天;10-20年支付300天;20年及以上支付400天工资。",
+      "summaryEs": "Según la Sección 118 de la Ley de Protección Laboral de Tailandia (modificada por la Ley N.º 7 B.E. 2562, 2019), un empleado despedido sin causa tiene derecho a indemnización legal según antigüedad continua: 30 a 400 días según antigüedad.",
+      "status": "effective",
+      "effectiveDate": "2019-05-05",
+      "source": "https://www.mol.go.th/laws/?law_type=law-on-labor-protection-and-welfare",
+      "sourceUrl": "https://www.mol.go.th/laws/?law_type=law-on-labor-protection-and-welfare",
+      "changes": [
+        "Severance ranges from 30 days (120 days-1 year) to 400 days (20+ years) of wages",
+        "New 400-day bracket added by 2019 amendment for 20+ years of service",
+        "Statutory severance does not apply if termination is for statutory cause (Section 119)"
+      ],
+      "changesZh": [
+        "遣散费从30天(120天-1年)到400天(20年以上)工资不等",
+        "2019年修订新增400天档次(20年以上工龄)",
+        "依第119条法定事由解雇的不适用法定遣散费"
+      ],
+      "changesEs": [
+        "La indemnización va de 30 días a 400 días de salario",
+        "La reforma de 2019 añadió un nuevo tramo de 400 días para 20+ años",
+        "No aplica si el despido es por causa legal (Sección 119)"
+      ],
+      "hrImpact": [
+        "HR must calculate severance according to the 6-tier service bracket including the 400-day bracket for 20+ year employees",
+        "Termination process must document cause; if not statutorily excluded, severance must be paid on the last day of work"
+      ],
+      "hrImpactZh": [
+        "人力资源部须按6档工龄区间(含20年以上400天档)计算遣散费",
+        "解雇流程须记录事由,如非法定除外情形,遣散费须在工作最后一日支付"
+      ],
+      "hrImpactEs": [
+        "RRHH debe calcular la indemnización según los 6 tramos de antigüedad",
+        "El proceso de terminación debe documentar la causa"
+      ],
+      "modules": [
+        "Termination",
+        "Payroll",
+        "Compliance"
+      ],
+      "effectiveDateStatus": "confirmed",
+      "effectiveDateSource": "https://www.mol.go.th/laws/?law_type=law-on-labor-protection-and-welfare",
+      "effectiveDateEvidence": "Labour Protection Act (No. 7) B.E. 2562 amended Section 118 to add the 400-day severance bracket. Effective 5 May 2019.",
+      "categorySource": "Thailand Ministry of Labour Laws Portal",
+      "categoryStatus": "confirmed",
+      "classificationReason": "Labour Protection Act (No. 7) B.E. 2562 - Section 118 amended severance pay schedule",
+      "businessFields": {
+        "zh": {
+          "120天-1年": "30天工资",
+          "1-3年": "90天工资",
+          "3-6年": "180天工资",
+          "6-10年": "240天工资",
+          "10-20年": "300天工资",
+          "20年以上": "400天工资",
+          "除外情形": "第119条法定事由解雇不适用"
+        },
+        "en": {
+          "120 days-1 year": "30 days' wages",
+          "1-3 years": "90 days' wages",
+          "3-6 years": "180 days' wages",
+          "6-10 years": "240 days' wages",
+          "10-20 years": "300 days' wages",
+          "20+ years": "400 days' wages",
+          "Exclusion": "Not payable for statutory cause under Section 119"
+        }
+      },
+      "lawZh": "《劳动保护法(第7号)》佛历2562年 - 遣散费(第118条)",
+      "lawEs": "Ley de Protección Laboral (N.º 7) B.E. 2562 - Indemnización por Despido (Sección 118)"
+    },
+    {
+      "id": "th10",
+      "country": "Thailand",
+      "countryCode": "TH",
+      "region": "southeast-asia",
+      "flag": "🇹🇭",
+      "law": "Minimum Wage Act B.E. 2562 - Provincial Minimum Daily Wage",
+      "category": "强制支付/法定津贴Mandatory Payments & Allowances",
+      "subCategory": "Minimum Wage",
+      "level1Category": "强制支付/法定津贴Mandatory Payments & Allowances",
+      "level2Category": "最低工资Minimum Wage",
+      "primaryCategory": "强制支付/法定津贴Mandatory Payments & Allowances",
+      "secondaryCategory": "最低工资Minimum Wage",
+      "summary": "Thailand sets minimum daily wages by province through Notifications of the Wage Committee under the Labour Protection Act (as amended by Minimum Wage Act B.E. 2562, 2019). Rates vary by province from 328 THB to 370 THB per day, with the highest rates in Phuket and other major economic zones. Employers must pay at least the applicable provincial rate for each workday.",
+      "summaryZh": "泰国通过工资委员会依据《劳动保护法》(经佛历2562年即2019年《最低工资法》修订)发布公告,分省设定每日最低工资标准。各省费率从每日328泰铢至370泰铢不等,普吉等重要经济区最高。",
+      "summaryEs": "Tailandia fija salarios mínimos diarios por provincia. Las tarifas varían de 328 THB a 370 THB al día.",
+      "status": "effective",
+      "effectiveDate": "2019-04-05",
+      "source": "https://www.mol.go.th/",
+      "sourceUrl": "https://www.mol.go.th/",
+      "changes": [
+        "Provincial minimum daily wages range from 328 THB to 370 THB per day",
+        "Rates set by Wage Committee under Minimum Wage Act B.E. 2562 amendment",
+        "Employers must pay at least the applicable provincial rate for each workday"
+      ],
+      "changesZh": [
+        "分省最低日工资标准范围为每日328至370泰铢",
+        "由工资委员会依据佛历2562年最低工资法修订确定费率",
+        "雇主须按适用省份费率支付每个工作日不低于最低工资"
+      ],
+      "changesEs": [
+        "Los salarios mínimos diarios provinciales van de 328 THB a 370 THB al día",
+        "Tarifas establecidas por el Comité Salarial",
+        "El empleador debe pagar al menos la tarifa provincial aplicable"
+      ],
+      "hrImpact": [
+        "Payroll must maintain a province-to-rate mapping and update rates each time the Wage Committee issues new notifications",
+        "HR must audit worksite locations for multi-province employers and apply the correct provincial minimum wage per employee"
+      ],
+      "hrImpactZh": [
+        "工资系统须维护省份-费率映射表,并在工资委员会发布新公告时及时更新",
+        "对跨省用工的雇主,人力资源部须核查工作地点,按员工所在省份适用正确的最低工资"
+      ],
+      "hrImpactEs": [
+        "La nómina debe mantener un mapeo provincia-tarifa",
+        "RRHH debe auditar las ubicaciones de trabajo"
+      ],
+      "modules": [
+        "Payroll",
+        "Compliance",
+        "HR Master Data"
+      ],
+      "effectiveDateStatus": "confirmed",
+      "effectiveDateSource": "https://www.mol.go.th/",
+      "effectiveDateEvidence": "Minimum Wage Act B.E. 2562 amendment published in the Royal Gazette on 5 April 2019.",
+      "categorySource": "Thailand Ministry of Labour Official Minimum Wage Page",
+      "categoryStatus": "confirmed",
+      "classificationReason": "Minimum Wage Act B.E. 2562 - provincial minimum daily wage set by Wage Committee notifications",
+      "businessFields": {
+        "zh": {
+          "最低费率": "328泰铢/天",
+          "最高费率": "370泰铢/天",
+          "计价单位": "按日",
+          "设定主体": "工资委员会",
+          "适用范围": "按员工工作所在省份"
+        },
+        "en": {
+          "Minimum Rate": "328 THB/day",
+          "Maximum Rate": "370 THB/day",
+          "Unit": "Per day",
+          "Setting Authority": "Wage Committee",
+          "Application": "By province of the workplace"
+        }
+      },
+      "lawZh": "《最低工资法》佛历2562年 - 分省最低日工资",
+      "lawEs": "Ley del Salario Mínimo B.E. 2562 - Salario Mínimo Diario Provincial"
+    },
+    {
+      "id": "th11",
+      "country": "Thailand",
+      "countryCode": "TH",
+      "region": "southeast-asia",
+      "flag": "🇹🇭",
+      "law": "Revenue Code - Personal Income Tax Progressive Rates (Section 48)",
+      "category": "个税Income Tax",
+      "subCategory": "Progressive Tax Rates",
+      "level1Category": "个税Income Tax",
+      "level2Category": "累进税率Progressive Tax Rates",
+      "primaryCategory": "个税Income Tax",
+      "secondaryCategory": "累进税率Progressive Tax Rates",
+      "summary": "Under Section 48 of Thailand's Revenue Code, personal income tax is levied progressively: 0% up to 150,000 THB; 5% on 150,001-300,000; 10% on 300,001-500,000; 15% on 500,001-750,000; 20% on 750,001-1,000,000; 25% on 1,000,001-2,000,000; 30% on 2,000,001-5,000,000; and 35% above 5,000,000 THB per year. Employers must withhold PIT monthly under Section 50.",
+      "summaryZh": "根据泰国《税法典》第48条,个人所得税按累进税率征收:净所得150,000泰铢及以下0%;150,001-300,000为5%;300,001-500,000为10%;500,001-750,000为15%;750,001-1,000,000为20%;1,000,001-2,000,000为25%;2,000,001-5,000,000为30%;超过5,000,000泰铢部分为35%。",
+      "summaryEs": "Según la Sección 48 del Código Fiscal de Tailandia, el impuesto sobre la renta personal se aplica de forma progresiva del 0% al 35% en 8 tramos.",
+      "status": "effective",
+      "effectiveDate": "2017-01-01",
+      "source": "https://www.rd.go.th/english/6045.html",
+      "sourceUrl": "https://www.rd.go.th/english/6045.html",
+      "changes": [
+        "Progressive PIT brackets from 0% to 35% across 8 income bands",
+        "First 150,000 THB of net income tax-exempt",
+        "Top marginal rate of 35% applies above 5,000,000 THB annual net income"
+      ],
+      "changesZh": [
+        "个税分8档累进税率,从0%至35%",
+        "前150,000泰铢净所得免税",
+        "年净所得超过5,000,000泰铢部分适用最高35%边际税率"
+      ],
+      "changesEs": [
+        "8 tramos progresivos del IRPF del 0% al 35%",
+        "Los primeros 150,000 THB de renta neta están exentos",
+        "La tasa marginal máxima del 35% se aplica sobre lo que exceda de 5,000,000 THB anuales"
+      ],
+      "hrImpact": [
+        "Payroll must implement the 8-bracket progressive PIT withholding table and update annually if brackets change",
+        "HR/Payroll must file monthly PND. 1 withholding returns and annual PND. 1 Kor by end of February"
+      ],
+      "hrImpactZh": [
+        "工资系统须实施8档累进个税代扣表,并在税档变更时年度更新",
+        "人力资源/工资部门须每月申报PND. 1代扣税表,年度PND. 1 Kor须在2月底前申报"
+      ],
+      "hrImpactEs": [
+        "La nómina debe implementar la tabla progresiva de 8 tramos",
+        "RRHH/Nómina debe presentar PND. 1 mensual y PND. 1 Kor anual"
+      ],
+      "modules": [
+        "Payroll",
+        "Tax Compliance",
+        "Statutory Reporting"
+      ],
+      "effectiveDateStatus": "confirmed",
+      "effectiveDateSource": "https://www.rd.go.th/english/6045.html",
+      "effectiveDateEvidence": "Current 8-bracket progressive PIT schedule took effect for the 2017 tax year.",
+      "categorySource": "Thailand Revenue Department Official Portal",
+      "categoryStatus": "confirmed",
+      "classificationReason": "Revenue Code - Section 48 progressive personal income tax rates and Section 50 employer withholding",
+      "businessFields": {
+        "zh": {
+          "0-150,000泰铢": "0%",
+          "150,001-300,000": "5%",
+          "300,001-500,000": "10%",
+          "500,001-750,000": "15%",
+          "750,001-1,000,000": "20%",
+          "1,000,001-2,000,000": "25%",
+          "2,000,001-5,000,000": "30%",
+          "5,000,000泰铢以上": "35%",
+          "代扣义务": "雇主按月代扣并申报PND. 1"
+        },
+        "en": {
+          "0-150,000 THB": "0%",
+          "150,001-300,000": "5%",
+          "300,001-500,000": "10%",
+          "500,001-750,000": "15%",
+          "750,001-1,000,000": "20%",
+          "1,000,001-2,000,000": "25%",
+          "2,000,001-5,000,000": "30%",
+          "Above 5,000,000 THB": "35%",
+          "Withholding Duty": "Employer withholds monthly and files PND. 1"
+        }
+      },
+      "lawZh": "《税法典》- 个人所得税累进税率(第48条)",
+      "lawEs": "Código Fiscal - Tasas Progresivas del Impuesto sobre la Renta Personal (Sección 48)"
     }
   ],
   "aiMonitorData": [

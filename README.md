@@ -17,15 +17,19 @@ AI 驱动的东南亚劳动法规监控系统，覆盖 3 个国家（新加坡�
 | 国家 | 法规数 | 涵盖领域 |
 |------|--------|----------|
 | 🇲🇾 马来西亚 | 16 | EPF/SOCSO/EIS/HRDF 缴费、年假/病假/产假/陪产假、加班费、解雇补偿、个税 |
-| 🇸🇬 新加坡 | 1 | 雇佣法（渐进式工资模式） |
-| 🇹🇭 泰国 | 1 | 劳动保护法（家政工人） |
+| 🇸🇬 新加坡 | 11 | CPF 公积金、年假/病假/产假/陪产假、工时/加班/公假、裁员补偿/离职通知、个税累进税率 |
+| 🇹🇭 泰国 | 11 | 社保/工伤基金、年假/病假/产假、工时/加班、遣散费、最低工资、个税累进税率 |
+
+**总计：38 条法规**（2026-09-01 完成扩充；扩充详情见 [`docs/regulation-coverage-report.md`](docs/regulation-coverage-report.md)）
 
 ## 项目结构
 
 ```
-├── index.html               # 主入口（自包含：HTML + 内联 CSS/JS + 数据）
+├── index.html                     # 主入口（自包含：HTML + 内联 CSS/JS + 数据）
 ├── data/
-│   └── laws.json            # 法规数据库（18 条法规，3 个国家）
+│   └── laws.json                  # 法规数据库（38 条法规，3 个国家）
+├── docs/
+│   └── regulation-coverage-report.md   # 法规覆盖率报告（含 Before/After 矩阵）
 └── README.md
 ```
 
@@ -72,6 +76,7 @@ AI 驱动的东南亚劳动法规监控系统，覆盖 3 个国家（新加坡�
 
 - 法定缴费类 Social Security / Statutory Funds
 - 休假类 Leave
+- 强制支付/法定津贴 Mandatory Payments & Allowances（含最低工资）
 - 工时与加班 Working Time & Overtime
 - 离职与遣散 Termination & Severance
 - 个税 Income Tax
