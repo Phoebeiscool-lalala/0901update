@@ -1,42 +1,39 @@
-# 全球劳动法规智能监控平台
+# 东南亚劳动法规智能监控平台
 
-AI 驱动的全球劳动法规监控系统，覆盖 30+ 国家。
+AI 驱动的东南亚劳动法规监控系统，覆盖 3 个国家（新加坡、马来西亚、泰国）。
 
 ## 功能特点
 
-- **实时监控**：追踪 30+ 国家劳动法规更新
 - **交互式地图**：基于 GeoJSON 的可视化，使用 Leaflet.js
 - **多语言支持**：中文 / 英文 / 西班牙语界面
-- **智能筛选**：按地区、国家、法规类型、关键词搜索
+- **智能筛选**：按国家、法规类型、生效年份、关键词搜索
 - **深色模式**：完整的深色/浅色主题切换
 - **响应式设计**：支持桌面和平板设备
-- **AI 洞察**：自动生成影响摘要和合规提醒
+- **AI 助手**：内置 MiChat AI 问答、翻译、分析功能
+- **业务详情**：马来西亚法规含结构化缴费费率、计算公式、资格条件
+
+## 法规覆盖
+
+| 国家 | 法规数 | 涵盖领域 |
+|------|--------|----------|
+| 🇲🇾 马来西亚 | 16 | EPF/SOCSO/EIS/HRDF 缴费、年假/病假/产假/陪产假、加班费、解雇补偿、个税 |
+| 🇸🇬 新加坡 | 1 | 雇佣法（渐进式工资模式） |
+| 🇹🇭 泰国 | 1 | 劳动保护法（家政工人） |
 
 ## 项目结构
 
 ```
-├── index.html               # 主入口文件
+├── index.html               # 主入口（自包含：HTML + 内联 CSS/JS + 数据）
 ├── data/
-│   └── laws.json            # 法规数据库（67 条法规，30+ 国家）
-├── src/
-│   ├── styles/
-│   │   └── main.css         # 样式文件（CSS 变量、深色模式、响应式）
-│   └── scripts/
-│       └── app.js           # 应用逻辑（筛选、渲染、地图、国际化）
+│   └── laws.json            # 法规数据库（18 条法规，3 个国家）
 └── README.md
 ```
 
+> **注意**：`src/` 目录下的 `main.css` 和 `app.js` 是历史遗留文件，当前未被引用。所有样式和逻辑均内联在 `index.html` 中。
+
 ## 快速开始
 
-```bash
-# 安装依赖（可选，用于本地开发服务器）
-npm install
-
-# 启动本地开发服务器
-npm run dev
-
-# 或直接在浏览器中打开 index.html
-```
+直接在浏览器中打开 `index.html` 即可使用。
 
 ## 部署
 
@@ -48,13 +45,7 @@ npm run dev
 4. **文件夹**：选择 **/ (root)**
 5. 点击 **Save**
 
-部署后访问：`https://phoebeiscool-lalala.github.io/0825update/`
-
-### Cloudflare Pages（可从中国访问）
-
-```bash
-npm run deploy:cf
-```
+部署后访问：`https://phoebeiscool-lalala.github.io/0901update/`
 
 ### Netlify
 
@@ -62,56 +53,28 @@ npm run deploy:cf
 
 ## 数据格式
 
-法规数据存储在 `data/laws.json` 中，每条记录格式：
+法规数据内联在 `index.html` 的 `INLINE_DATA` 常量中，同步存储于 `data/laws.json`。每条记录包含：
 
-```json
-{
-  "id": "au01",
-  "country": "Australia",
-  "countryCode": "AU",
-  "region": "Oceania",
-  "flag": "🇦🇺",
-  "law": "Fair Work Act 2009 – Modern Awards Update",
-  "category": "工作日加班Weekday Overtime",
-  "primaryCategory": "工时与加班Working Time & Overtime",
-  "secondaryCategory": "工作日加班Weekday Overtime",
-  "categorySource": "AI Classification",
-  "categoryStatus": "confirmed",
-  "classificationReason": "Fair Work Act Modern Awards - regulates minimum wages, overtime rates, penalty rates for working time",
-  "summary": "English summary...",
-  "summaryZh": "中文摘要...",
-  "status": "effective",
-  "effectiveDate": "2026-07-01",
-  "effectiveDateStatus": "confirmed",
-  "effectiveDateSource": "https://www.fwc.gov.au",
-  "effectiveDateEvidence": "Annual Modern Awards update usually effective July 1",
-  "source": "https://www.fwc.gov.au",
-  "changes": ["..."],
-  "hrImpact": ["..."],
-  "modules": ["薪酬管理", "工时与加班"]
-}
-```
+| 字段 | 说明 |
+|------|------|
+| `id` / `country` / `countryCode` / `flag` | 基本标识 |
+| `law` / `lawZh` / `lawEs` | 三语法规名称 |
+| `primaryCategory` / `secondaryCategory` | 法规类目与细分类目 |
+| `summary` / `summaryZh` / `summaryEs` | 三语法规摘要 |
+| `effectiveDate` / `effectiveDateStatus` | 生效时间及确认状态 |
+| `changes` / `changesZh` / `changesEs` | 核心变更（三语） |
+| `hrImpact` | HR 影响评估 |
+| `businessFields` | 业务详情（马来西亚法规专属：缴费费率、计算公式、资格条件等） |
 
 ## 分类系统
 
 ### 一级分类（Primary Category）
 
-- 基础信息 Basic Information
 - 法定缴费类 Social Security / Statutory Funds
 - 休假类 Leave
-- 强制支付/法定津贴 Mandatory Payments & Allowances
 - 工时与加班 Working Time & Overtime
 - 离职与遣散 Termination & Severance
 - 个税 Income Tax
-
-### 二级分类（Secondary Category）
-
-每个一级分类下包含多个二级分类，用于精确筛选和分类。
-
-## 生效时间验证
-
-- **已确认**：28 条法规有官方来源确认的生效时间
-- **暂无**：39 条法规无法确认生效时间，显示"暂无"
 
 ## 技术栈
 
